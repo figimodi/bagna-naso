@@ -32,19 +32,18 @@ Valori da usare nei calcoli delle prossime cotte.
 Parametro & Simbolo & Valore & Fonte / note \\
 \midrule
 Efficienza d'impianto & $\varepsilon$ & 0,78 & misurata, cotta \#1 (OG corretta) \\
-Evaporazione & $\sigma$ & \SI{3}{\liter\per\hour} & stima \\
-Assorbimento trebbie & $\eta$ & \SI{1,125}{\liter\per\kilo\gram} & cotta \#1, IREKS Pilsner \\
+Evaporazione & $\sigma$ & \SI{3}{\liter\per\hour} & misurata, cotta \#1 (volume pre-bollitura) \\
+Assorbimento trebbie & $\eta$ & \SI{1,125}{\liter\per\kilo\gram} & cotta \#1, per differenza (vedi sotto) \\
 Perdite (fondo + campioni) & $V_l$ & \SI{2}{\liter} & cotta \#1: parte del volume è rimasta sopra il rubinetto \\
 Rapporto di mash & $R$ & \SI{3,5}{\liter\per\kilo\gram} & scelta di processo \\
 Contrazione a freddo & --- & 0 & non serve: volumi confrontati a temperatura ambiente \\
-CO$_2$ residua & $v_r$ & \SI{0,9}{\vol} & con $T_f^{max} = \SI{18}{\celsius}$ \\
 \bottomrule
 \end{tabularx}
 
 \medskip
-\textbf{Attenzione:} $\sigma$ ed $\eta$ non sono indipendenti. Nella cotta \#1 si conosce solo la somma $V_{ev} + V_{abs} = \SI{7,5}{\liter}$. Per separarli, misurare il volume pre-bollitura alla prossima cotta:
+\textbf{Cotta \#1:} $\sigma$ è stata misurata a \SI{3}{\liter\per\hour} dal volume pre-bollitura. Con $V_{ev} = \sigma\, t_b = \SI{3}{\liter}$ e la somma nota $V_{ev} + V_{abs} = \SI{7,5}{\liter}$, si ricava per differenza:
 \begin{equation*}
-V_{ev} = V_{pre} - V_{pb}, \qquad V_{abs} = V_w - V_{pre}.
+V_{abs} = \SI{7,5}{\liter} - \SI{3}{\liter} = \SI{4,5}{\liter}, \qquad \eta = \frac{\SI{4,5}{\liter}}{\SI{4,00}{\kilo\gram}} = \SI{1,125}{\liter\per\kilo\gram}.
 \end{equation*}
 
 % =====================================================================
@@ -55,16 +54,6 @@ V_{ev} = V_{pre} - V_{pb}, \qquad V_{abs} = V_w - V_{pre}.
 \toprule
 Cotta & $\varepsilon$ & $\sigma$ [\si{\liter\per\hour}] & $\eta$ [\si{\liter\per\kilo\gram}] & $V_l$ [\si{\liter}] & $V_{ev}+V_{abs}$ [\si{\liter}] \\
 \midrule
-\#1 & 0,78 & 3 (stima) & 1,125 & 3 & 7,5 \\
+\#1 & 0,78 & 3 (misurata) & 1,125 & 2 & 7,5 \\
 \bottomrule
 \end{tabularx}
-
-% =====================================================================
-\section{Da misurare / tarare}
-% =====================================================================
-
-\begin{itemize}
-  \item Volume pre-bollitura, per separare evaporazione e assorbimento.
-  \item Volume morto del bollitore sotto il rubinetto.
-  \item Volume residuo sul fondo dei fermentatori non recuperabile col sifone (birra effettivamente imbottigliabile).
-\end{itemize}

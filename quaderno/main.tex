@@ -10,6 +10,8 @@
 \usepackage{caption}
 \usepackage{float}
 \usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{xcolor}
 \counterwithin*{section}{part}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{4pt}
@@ -30,7 +32,7 @@
 \newcommand{\adim}{\qquad [\text{--}]}
 
 \title{Bagna Naso \\ \large Quaderno di birrificazione}
-\author{figimodi}
+\author{Filippo Greco}
 \date{Ottobre 2026}
 
 \begin{document}
@@ -49,5 +51,12 @@
 \part{Cotte}
 % Una cotta per file: aggiungi qui \input{cottaNN}
 \input{cotte/cotta01}
+
+\clearpage
+\input{cotte/cotta02}
+
+\clearpage
+\part{Acquisti}
+\input{acquisti}
 
 \end{document}

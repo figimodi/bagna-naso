@@ -5,10 +5,12 @@
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
 Data cotta & 19/09/2026 \\
-Stile & German Pilsener (BJCP 5D) \\
+Stile & German Pilsener (BJCP 2021, 5D German Pils, p.~10) \\
+Parametri di stile & OG 1,044--1,050; FG 1,008--1,013; IBU 22--40; SRM 2--4; ABV 4,4--5,2\,\% \\
 Durata giornata & 8--9 \si{\hour} \\
 Volume in fermentatore & \SI{17}{\liter} ($9 + 4 + \SI{4}{\liter}$) \\
 Imbottigliamento & \#1: 4/10/2026 (\num{14,5} gg) --- \#2, \#3: 10/10/2026 (21 gg) \\
+Costo ingredienti & 25,20\,\texteuro\ (1,48\,\texteuro/L su \SI{17}{\liter}; esclusa la bottiglia) \\
 Densimetro & starato: $SG = SG_{letta} + 0{,}005$ (valori sotto già corretti) \\
 \bottomrule
 \end{tabularx}
@@ -29,6 +31,21 @@ $ABV$ [\si{\percent}] & 4,7 & 4,6 / 5,5 & prima di priming e infusioni \\
 \end{tabularx}
 
 % ---------------------------------------------------------------------
+\subsection*{Ricetta di partenza e modifiche}
+
+\begin{tabularx}{\linewidth}{@{}lXXX@{}}
+\toprule
+Voce & Partenza (\SI{23}{\liter}) & Cotta \#1 (\SI{17}{\liter}) & Note \\
+\midrule
+OG & 1,046 & 1,048 (obiettivo) & \\
+Malto & Ireks Pilsner \SI{4,8}{\kilo\gram} & IREKS Pilsner \SI{4,00}{\kilo\gram} & \SI{3,55}{\kilo\gram} proporzionali a \SI{17}{\liter} \\
+Luppolo amaro & Hersbrucker \SI{45}{\gram}, 3,0\,\% (60 min) & Hersbrucker \SI{33}{\gram}, 4,1\,\% (60 min) & scala a \SI{17}{\liter} \\
+Luppolo aroma & Tettnang \SI{25}{\gram}, 2,4\,\% (15 min) & Tettnanger \SI{18}{\gram}, 3,8\,\% (15 min) & scala a \SI{17}{\liter} \\
+Mash & 52\,\textdegree C 10 min; 67\,\textdegree C 50 min; 78\,\textdegree C 10 min & identico & \\
+Lievito & WLP800 / M84 (10--15\,\textdegree C) o Nottingham (15--24\,\textdegree C) & Nottingham (ale) & fermentazione più calda, vedi note \\
+\bottomrule
+\end{tabularx}
+
 \subsection*{Ricetta}
 
 \subsubsection*{Malto}
@@ -113,7 +130,7 @@ Mash-out & \SI{78}{\celsius} & \SI{10}{\minute} \\
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
 Durata & \SI{60}{\minute} \\
-Evaporazione stimata $\sigma$ & \SI{3}{\liter\per\hour} \\
+Evaporazione misurata $\sigma$ (volume pre-bollitura) & \SI{3}{\liter\per\hour} \\
 Volume post-bollitura & \SI{20}{\liter} (raffreddato) \\
 Raffreddamento & chiller, con perdite al sistema di pompaggio \\
 \bottomrule
@@ -177,6 +194,7 @@ Arancia amara & 9  & $\sim$5,4 & base 4,6 + vodka + priming \\
 \begin{itemize}
   \item $V_{pb}$ calcolato come $V_f$: mosto più diluito, IBU sotto obiettivo (OG quasi in target grazie a un'efficienza alta).
   \item Aggiunti per errore \SI{0,5}{\liter} di contrazione a freddo: non servono se i volumi sono confrontati alla stessa temperatura.
+  \item Nel calcolo del volume acqua totale ($\SI{27,5}{\liter}$) sono state usate stime sbagliate, perché era la prima cotta: $V_l = \SI{3}{\liter}$ (ora $\SI{2}{\liter}$) e $V_{abs} = \SI{4}{\liter}$ (con $\eta = \SI{1,125}{\liter\per\kilo\gram}$ e \SI{4,00}{\kilo\gram} di malto, $V_{abs} = \SI{4,5}{\liter}$).
   \item Usare $V_l = \SI{2}{\liter}$ e $\eta = \SI{1,125}{\liter\per\kilo\gram}$ (IREKS Pilsner).
   \item Lievito ale al posto di un lager: fermentazione più calda del previsto per lo stile.
   \item Rubinetto del bollitore Vevor non sanificato prima del travaso.

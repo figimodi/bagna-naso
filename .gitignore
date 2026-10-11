@@ -1,0 +1,6 @@
+# Output della compilazione LaTeX (vedi quaderno/.latexmkrc): solo il PDF è versionato
+quaderno/build/*
+!quaderno/build/quaderno.pdf
+
+# VS Code
+.vscode/

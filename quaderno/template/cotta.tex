@@ -1,0 +1,180 @@
+% =====================================================================
+% TEMPLATE COTTA — NON compilato da main.tex.
+% Per una nuova cotta: copiare in cotte/cottaNN.tex, sostituire i campi
+% <...> e i "Da definire", poi aggiungere \clearpage e \input in main.tex.
+% Le sezioni "Ricetta di partenza" e "Priming" sono facoltative.
+% =====================================================================
+\section{Cotta \#N --- <Stile>}
+% =====================================================================
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Data cotta & <gg/mm/aaaa> \\
+Stile & <Nome> (BJCP 2021, <codice>, p.~<pagina>) \\
+Parametri di stile & OG <a>--<b>; FG <a>--<b>; IBU <a>--<b>; SRM <a>--<b>; ABV <a>--<b>\,\% \\
+Ricetta di partenza & <fonte> (<OG>, \SI{<L>}{\liter}) \\
+Durata giornata & <x>--<y> \si{\hour} \\
+Volume in fermentatore & \SI{<V_f>}{\liter} \\
+Efficienza & $\varepsilon = <valore>$ (impianto, cotta \#<n>) \\
+Carbonazione obiettivo & $v_t = \SI{<x>}{\vol}$ \\
+Imbottigliamento & \textcolor{red}{Da definire} \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Obiettivi e risultati}
+\begin{tabularx}{\linewidth}{@{}lccX@{}}
+\toprule
+Grandezza & Obiettivo & Misurato & Note \\
+\midrule
+$V_{pb}$ [\si{\liter}] & <V_pb> & \textcolor{red}{Da definire} & $V_{fer} + V_{scr}$ \\
+$OG$ & <OG> & \textcolor{red}{Da definire} & $GU_{pb} = <GU>$; range dello stile \\
+$P_{tot}$ [pt$\cdot$L] & <P> & --- & $GU_{pb} \cdot V_{pb}$ \\
+$FG$ & <FG> & \textcolor{red}{Da definire} & $A_{app}$; range dello stile \\
+$IBU$ & <IBU> & --- & valore ricetta; range dello stile \\
+$ABV$ [\si{\percent}] & <ABV> & \textcolor{red}{Da definire} & prima del priming; $ABV = 131{,}25\,(OG-FG)$ \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Ricetta di partenza e modifiche}
+\begin{tabularx}{\linewidth}{@{}lXXX@{}}
+\toprule
+Voce & Partenza (\SI{<L>}{\liter}) & Cotta \#N (\SI{<V_f>}{\liter}) & Motivo \\
+\midrule
+OG & <OG> & <OG> & \\
+Malto & <...> & <...> & \\
+Luppolo amaro & <...> & <...> & \\
+Luppolo aroma & <...> & <...> & \\
+Lievito & <...> & <...> & \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Ricetta}
+
+\subsubsection*{Malto}
+\begin{tabularx}{\linewidth}{@{}Xrr@{}}
+\toprule
+Malto & Massa [\si{\kilo\gram}] & \% \\
+\midrule
+<Malto 1> & <m> & <%> \\
+\midrule
+Totale & <M> & 100,0 \\
+\bottomrule
+\end{tabularx}
+
+\noindent Calcolo: $m_i = P_i / (10\, e_i\, \varepsilon)$, con $P_{tot}$ ripartito sui malti. Estratti $e_i$: <...>.
+
+\subsubsection*{Luppolo}
+\begin{tabularx}{\linewidth}{@{}Xccccr@{}}
+\toprule
+Luppolo & Forma & $a$ [\si{\percent}] & Massa [\si{\gram}] & Aggiunta & $IBU_i$ \\
+\midrule
+<Luppolo> & <pellet> & <a> & <m> & \SI{<t>}{\minute} & <IBU_i> \\
+\bottomrule
+\end{tabularx}
+
+\noindent Utilizzi: <...>. $C_g$ = <...>.
+
+\subsubsection*{Altri ingredienti}
+\begin{tabularx}{\linewidth}{@{}Xcr@{}}
+\toprule
+Ingrediente & Aggiunta & Quantità [\si{\gram}] \\
+\midrule
+<...> & \SI{<t>}{\minute} & <q> \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Lievito}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Ceppo & <...> \\
+Quantità & \SI{<m>}{\gram} $\;\to\; q_y = \SI{<q>}{\gram\per\liter}$ \\
+Attenuazione dichiarata & <...> (usata <...>\,\% per il calcolo di FG) \\
+Range temperatura & <...> \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Acqua}
+\begin{tabularx}{\linewidth}{@{}lccc@{}}
+\toprule
+ & Rocchetta [\si{\liter}] & Lauretana [\si{\liter}] & Totale [\si{\liter}] \\
+\midrule
+Mash   & <> & <> & <> \\
+Sparge & <> & <> & <> \\
+\midrule
+Totale & <> & <> & <> \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Processo}
+
+\subsubsection*{Volumi}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Volume totale acqua & $V_{tot} = V_{fer} + V_{scr} + V_{evp} + V_{abs}$ \\
+Assorbimento trebbie & $\eta = \SI{1,125}{\liter\per\kilo\gram} \Rightarrow V_{abs}$ \\
+Evaporazione & $\sigma = \SI{3}{\liter\per\hour}$ per \SI{60}{\minute} (misurata, cotta \#1) \\
+Rapporto di mash $R$ & $\SI{3,5}{\liter\per\kilo\gram} \Rightarrow V_m$ \\
+Volume sparge & $V_{sp} = V_{tot} - V_m$ \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Mash e sparge}
+\begin{tabularx}{\linewidth}{@{}Xcc@{}}
+\toprule
+Step & Temperatura & Durata \\
+\midrule
+<step> & \SI{<T>}{\celsius} & \SI{<t>}{\minute} \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Bollitura}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Durata & \SI{60}{\minute} \\
+Volume post-bollitura & \SI{<V_pb>}{\liter} (obiettivo, prima del raffreddamento) \\
+Aggiunte & \SI{0}{\minute}: <...> \\
+ & \SI{<t>}{\minute} dopo l'inizio: <...> \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Fermentazione}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Fase 1 & \SI{<T>}{\celsius} per <n> gg \\
+Fase 2 & \SI{<T>}{\celsius} per <n> gg \\
+Temperatura massima $T_f^{max}$ & \SI{<T>}{\celsius} \\
+Durata totale & <n> gg \\
+Misurato & \textcolor{red}{Da definire} \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Priming}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Volume CO$_2$ obiettivo $v_t$ & \SI{<x>}{\vol} \\
+CO$_2$ residua $v_r(T_f^{max})$ & \SI{<x>}{\vol} (tabella del formulario) \\
+Zucchero & $c_s = 3{,}86\,(v_t - v_r) \approx \SI{<x>}{\gram\per\liter}$ \\
+$\Delta ABV_p = 0{,}0648\, c_s$ & $\approx <x>$\,\% v/v (ABV finale $\approx$ <x>\,\%) \\
+Volume da imbottigliare $V_b$ & \textcolor{red}{Da definire} [\si{\liter}] \\
+Massa di zucchero $m_s = c_s V_b$ & \textcolor{red}{Da definire} [\si{\gram}] \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Imbottigliamento e prodotto finito}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Data & \textcolor{red}{Da definire} \\
+Bottiglie & \textcolor{red}{Da definire} \\
+ABV finale [\si{\percent}] & \textcolor{red}{Da definire} \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Problemi e note per le prossime cotte}
+\begin{itemize}
+  \item <...>
+\end{itemize}

@@ -1,0 +1,181 @@
+% =====================================================================
+\section{Cotta \#2 --- Witbier}
+% =====================================================================
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Data cotta & Da definire \\
+Stile & Witbier (BJCP 2021, 24A, p.~49) \\
+Parametri di stile & OG 1,044--1,052; FG 1,008--1,012; IBU 8--20; SRM 2--4; ABV 4,5--5,5\,\% \\
+Volume in fermentatore & \SI{17}{\liter} \\
+Volume di riferimento ricetta & \SI{23}{\liter} (ricetta di partenza, scalata a \SI{17}{\liter}) \\
+Efficienza & $\varepsilon = 0{,}78$ (impianto, cotta \#1) \\
+Costo ingredienti & 23,23\,\texteuro\ + zucchero di priming \textcolor{red}{Da definire} (1,37\,\texteuro/L su \SI{17}{\liter}, escluso lo zucchero; esclusa la bottiglia) \\
+Carbonazione obiettivo & $v_t = \SI{3,0}{\vol}$ (BJCP 24A: \emph{high carbonation}, senza valore numerico; scelto prudente per bottiglie da \SI{33}{\centi\liter}) \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Obiettivi}
+\begin{tabularx}{\linewidth}{@{}lccX@{}}
+\toprule
+Grandezza & Obiettivo & Misurato & Note \\
+\midrule
+$V_{pb}$ [\si{\liter}] & 19 & \textcolor{red}{Da definire} & $V_{fer} + V_{scr}$, con $V_{scr} = \SI{2}{\liter}$ \\
+$OG$ & 1,047 & \textcolor{red}{Da definire} & $GU_{pb} = 47$; dentro il range dello stile (1,044--1,052) \\
+$P_{tot}$ [pt$\cdot$L] & 893 & --- & $47 \cdot 19$ \\
+$FG$ & 1,012 & \textcolor{red}{Da definire} & $A_{app} = 0{,}75$ (limite superiore dichiarato del lievito); range dello stile 1,008--1,012 \\
+$IBU$ & $\approx 16$ & --- & valore ricetta, dentro il range dello stile (8--20) \\
+$ABV$ [\si{\percent}] & $\approx 4{,}6$ & \textcolor{red}{Da definire} & prima del priming; $ABV = 131{,}25\,(OG-FG)$. Dopo il priming $\approx 5{,}1$, dentro il range dello stile (4,5--5,5) \\
+\bottomrule
+\end{tabularx}
+
+\noindent \textbf{Nota:} con $A_{app} = 0{,}75$ il FG cade sul limite superiore del range. Se la FG reale risulta più alta, l'ABV scende sotto 4,5\,\%: in quel caso la prossima cotta va alzata di OG.
+
+% ---------------------------------------------------------------------
+\subsection*{Ricetta di partenza e modifiche}
+
+\begin{tabularx}{\linewidth}{@{}lXXX@{}}
+\toprule
+Voce & Partenza (\SI{23}{\liter}) & Cotta \#2 (\SI{17}{\liter}) & Motivo \\
+\midrule
+OG & 1,045 & 1,047 & ABV $\ge 4{,}5\,\%$ con FG $\le 1{,}012$ \\
+Frumento non maltato & \SI{0,7}{\kilo\gram} (15\,\%) & \SI{1,20}{\kilo\gram} (32\,\%) & BJCP 24A: 30--60\,\% \\
+Frumento maltato (Château Wheat Blanc) & \SI{1,2}{\kilo\gram} & \SI{0,90}{\kilo\gram} & bilancio sull'OG obiettivo, con 1,20 kg di frumento non maltato \\
+Château Pilsner & \SI{2,5}{\kilo\gram} & \SI{1,42}{\kilo\gram} & bilancio sull'OG obiettivo \\
+Fiocchi d'avena & \SI{0,3}{\kilo\gram} & \SI{0,25}{\kilo\gram} & circa 7\,\% della miscela (stile: fino al 5--10\,\%) \\
+Luppolo amaro & Bobek \SI{25}{\gram}, 4,5\,\% & Bobek \SI{18}{\gram}, 4,2\,\% & IBU obiettivo 16: margine sotto il limite superiore dello stile (20) \\
+Luppolo aroma & Saaz \SI{25}{\gram}, 3,2\,\% & Saaz \SI{15}{\gram}, 3,5\,\% & luppolo speziato \emph{low to none} nello stile \\
+Arancia amara & \SI{20}{\gram} & \SI{15}{\gram} & scala a \SI{17}{\liter} \\
+Coriandolo & \SI{10}{\gram} & \SI{7}{\gram} & scala a \SI{17}{\liter}; lo stile vuole spezia non esagerata \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Ricetta}
+
+\subsubsection*{Malto}
+\begin{tabularx}{\linewidth}{@{}Xrr@{}}
+\toprule
+Malto & Massa [\si{\kilo\gram}] & \% \\
+\midrule
+Château Pilsner & 1,42 & 37,7 \\
+Château Wheat Blanc (frumento maltato) & 0,90 & 23,9 \\
+Torrified Wheat (frumento non maltato) & 1,20 & 31,8 \\
+Fiocchi d'avena & 0,25 & 6,6 \\
+\midrule
+Totale & 3,77 & 100,0 \\
+\bottomrule
+\end{tabularx}
+
+\noindent Calcolo: $m_i = P_i / (10\, e_i\, \varepsilon)$, con $P_{tot} = 893$ pt$\cdot$L ripartiti in Pilsner ($P = 332$), frumento maltato ($P = 225$), frumento non maltato ($P = 281$) e avena ($P = 55$). Estratti potenziali $e_i$ = 30 (Pilsner), 32 (frumento maltato), 30 (frumento non maltato), 28 (avena).
+
+\subsubsection*{Luppolo}
+\begin{tabularx}{\linewidth}{@{}Xccccr@{}}
+\toprule
+Luppolo & Forma & $a$ [\si{\percent}] & Massa [\si{\gram}] & Aggiunta & $IBU_i$ \\
+\midrule
+Bobek & pellet & 4,2 & 18 & \SI{60}{\minute} & 11,9 \\
+Saaz & pellet & 3,5 & 15 & \SI{15}{\minute} & 4,1 \\
+\bottomrule
+\end{tabularx}
+
+\noindent Masse calcolate con rapporto $r = m_{h,1}/m_{h,2} = 1{,}2$, $IBU = 16$, $C_g = 1$ (OG $< 1{,}050$), utilizzi $U=0{,}30$ (60 min) e $U=0{,}15$ (15 min) in pellet.
+
+\subsubsection*{Altri ingredienti}
+\begin{tabularx}{\linewidth}{@{}Xcr@{}}
+\toprule
+Ingrediente & Aggiunta & Quantità [\si{\gram}] \\
+\midrule
+Arancia amara (buccia essiccata) & \SI{15}{\minute} & 15 \\
+Coriandolo (semi) & \SI{5}{\minute} & 7 \\
+\bottomrule
+\end{tabularx}
+
+\noindent Quantità scalate dalla ricetta di partenza ($20\,\mathrm{g}$ e $10\,\mathrm{g}$ per \SI{23}{\liter}).
+
+\subsubsection*{Lievito}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Ceppo & Mangrove Jack's Belgian Wit M21 \\
+Quantità & \SI{10}{\gram} $\;\to\; q_y = \SI{0,59}{\gram\per\liter}$ \\
+Attenuazione dichiarata & 70--75\,\% (usata $75$\,\% per il calcolo di FG, vedi nota sopra) \\
+Range temperatura & 18--\SI{25}{\celsius} \\
+Dose massima dichiarata & fino a \SI{23}{\liter} di mosto \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Acqua}
+\begin{tabularx}{\linewidth}{@{}lccc@{}}
+\toprule
+ & Rocchetta [\si{\liter}] & Lauretana [\si{\liter}] & Totale [\si{\liter}] \\
+\midrule
+Mash   & 7,9 & 5,3 & 13,2 \\
+Sparge & 7,8 & 5,2 & 13,0 \\
+\midrule
+Totale & 15,7 & 10,5 & 26,2 \\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\noindent Miscela $\approx$ 60\,\% Rocchetta / 40\,\% Lauretana (come cotta \#1). Profilo ionico da ricalcolare. Sparge acidificata a pH $\approx 5$.
+
+% ---------------------------------------------------------------------
+\subsection*{Processo}
+
+\subsubsection*{Volumi}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Volume totale acqua & $V_{tot} = V_{fer} + V_{scr} + V_{evp} + V_{abs} = 17 + 2 + 3 + 4{,}24 \approx \SI{26,2}{\liter}$ \\
+Assorbimento trebbie & $\eta = \SI{1,125}{\liter\per\kilo\gram} \Rightarrow V_{abs} \approx \SI{4,2}{\liter}$ \\
+Evaporazione & $\sigma = \SI{3}{\liter\per\hour}$ per \SI{60}{\minute} \\
+Rapporto di mash $R$ & $\SI{3,5}{\liter\per\kilo\gram} \Rightarrow V_m \approx \SI{13,2}{\liter}$ \\
+Volume sparge & $V_{sp} = V_{tot} - V_m \approx \SI{13,0}{\liter}$ \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Mash e sparge}
+\begin{tabularx}{\linewidth}{@{}Xcc@{}}
+\toprule
+Step & Temperatura & Durata \\
+\midrule
+Protein rest & \SI{52}{\celsius} & \SI{15}{\minute} \\
+Mash & \SI{62}{\celsius} & \SI{30}{\minute} \\
+Mash & \SI{65}{\celsius} & \SI{30}{\minute} \\
+Mash & \SI{72}{\celsius} & \SI{10}{\minute} \\
+Mash-out & \SI{78}{\celsius} & \SI{10}{\minute} \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Bollitura}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Durata & \SI{60}{\minute} \\
+Volume post-bollitura & \SI{19}{\liter} (obiettivo, prima del raffreddamento) \\
+Aggiunte & \SI{0}{\minute}: Bobek \SI{18}{\gram} (60 min) \\
+ & \SI{45}{\minute} dopo l'inizio: Saaz \SI{15}{\gram} + arancia amara \SI{15}{\gram} (15 min alla fine) \\
+ & \SI{55}{\minute} dopo l'inizio: coriandolo \SI{7}{\gram} (5 min alla fine) \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Fermentazione}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Fase 1 & \SI{18}{\celsius} per 6 gg (fermentazione principale) \\
+Fase 2 & \SI{20}{\celsius} per 4 gg (fine fermentazione, riassorbimento del diacetile) \\
+Temperatura massima $T_f^{max}$ & \SI{20}{\celsius} (range lievito \SIrange{18}{25}{\celsius}) \\
+Durata totale & 10 gg, poi imbottigliamento \\
+Misurato & \textcolor{red}{Da definire} \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Priming}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Volume CO$_2$ obiettivo $v_t$ & \SI{3,0}{\vol} \\
+CO$_2$ residua $v_r(T_f^{max} = \SI{20}{\celsius})$ & \SI{0,85}{\vol} (tabella del formulario) \\
+Zucchero & $c_s = 3{,}86\,(3{,}0 - 0{,}85) \approx \SI{8,3}{\gram\per\liter}$ (saccarosio) \\
+$\Delta ABV_p = 0{,}0648\, c_s$ & $\approx 0{,}5$\,\% v/v (ABV finale $\approx 4{,}6 + 0{,}5 = 5{,}1$\,\%) \\
+Volume da imbottigliare $V_b$ & \textcolor{red}{Da definire} [\si{\liter}] \\
+Massa di zucchero $m_s = c_s V_b$ & \textcolor{red}{Da definire} [\si{\gram}] \\
+\bottomrule
+\end{tabularx}
