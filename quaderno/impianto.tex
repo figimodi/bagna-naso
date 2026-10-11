@@ -1,0 +1,70 @@
+% Impianto — incluso da main.tex
+% Aggiornare i parametri dopo ogni cotta (tabella "Storico").
+
+% =====================================================================
+\section{Attrezzatura}
+% =====================================================================
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Componente & Descrizione \\
+\midrule
+Impianto & Vevor AIO Beer 30\,L, all-in-one (mash, sparge e bollitura nello stesso tino) \\
+Raffreddamento & Chiller con pompa (perdite del circuito sistemate dopo la cotta \#1) \\
+Fermentatori & 1 $\times$ \SI{10}{\liter}, 2 $\times$ \SI{5}{\liter} (capacità nominale) \\
+Controllo temperatura & Termostato, isteresi $-1/+0$ \si{\celsius} \\
+Datalogger & IPT-100 ``bagnanaso'': temperatura e umidità ambiente, sonda esterna \\
+Densimetro & Starato: $\delta = +0{,}005$ (da sommare a ogni lettura). Verificato in acqua Lauretana a \SI{15}{\celsius}: lettura 0,996, riportata a \SI{20}{\celsius} $\approx 0{,}995$ \\
+Imbottigliamento & Sifone dall'alto \\
+Dosaggio priming & Siringa graduata (eroga il valore nominale) \\
+\bottomrule
+\end{tabularx}
+
+% =====================================================================
+\section{Parametri di impianto}
+% =====================================================================
+
+Valori da usare nei calcoli delle prossime cotte.
+
+\medskip
+\begin{tabularx}{\linewidth}{@{}lccX@{}}
+\toprule
+Parametro & Simbolo & Valore & Fonte / note \\
+\midrule
+Efficienza d'impianto & $\varepsilon$ & 0,78 & misurata, cotta \#1 (OG corretta) \\
+Evaporazione & $\sigma$ & \SI{3}{\liter\per\hour} & stima \\
+Assorbimento trebbie & $\eta$ & \SI{1,125}{\liter\per\kilo\gram} & cotta \#1, IREKS Pilsner \\
+Perdite (fondo + campioni) & $V_l$ & \SI{2}{\liter} & cotta \#1: parte del volume è rimasta sopra il rubinetto \\
+Rapporto di mash & $R$ & \SI{3,5}{\liter\per\kilo\gram} & scelta di processo \\
+Contrazione a freddo & --- & 0 & non serve: volumi confrontati a temperatura ambiente \\
+CO$_2$ residua & $v_r$ & \SI{0,9}{\vol} & con $T_f^{max} = \SI{18}{\celsius}$ \\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\textbf{Attenzione:} $\sigma$ ed $\eta$ non sono indipendenti. Nella cotta \#1 si conosce solo la somma $V_{ev} + V_{abs} = \SI{7,5}{\liter}$. Per separarli, misurare il volume pre-bollitura alla prossima cotta:
+\begin{equation*}
+V_{ev} = V_{pre} - V_{pb}, \qquad V_{abs} = V_w - V_{pre}.
+\end{equation*}
+
+% =====================================================================
+\section{Storico dei parametri}
+% =====================================================================
+
+\begin{tabularx}{\linewidth}{@{}c*{5}{>{\centering\arraybackslash}X}@{}}
+\toprule
+Cotta & $\varepsilon$ & $\sigma$ [\si{\liter\per\hour}] & $\eta$ [\si{\liter\per\kilo\gram}] & $V_l$ [\si{\liter}] & $V_{ev}+V_{abs}$ [\si{\liter}] \\
+\midrule
+\#1 & 0,78 & 3 (stima) & 1,125 & 3 & 7,5 \\
+\bottomrule
+\end{tabularx}
+
+% =====================================================================
+\section{Da misurare / tarare}
+% =====================================================================
+
+\begin{itemize}
+  \item Volume pre-bollitura, per separare evaporazione e assorbimento.
+  \item Volume morto del bollitore sotto il rubinetto.
+  \item Volume residuo sul fondo dei fermentatori non recuperabile col sifone (birra effettivamente imbottigliabile).
+\end{itemize}

@@ -1,0 +1,53 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{tabularx}
+\counterwithin*{section}{part}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\sisetup{
+  output-decimal-marker = {,},
+  per-mode = symbol,
+  inter-unit-product = \ensuremath{\cdot}
+}
+% Unità non SI usate in birrificazione
+\DeclareSIUnit\pt{pt}       % gravity points
+\DeclareSIUnit\vol{vol}     % volumi di CO2
+\DeclareSIUnit\cell{cell}
+\DeclareSIUnit\IBU{IBU}
+
+% Unità a destra dell'equazione
+\newcommand{\un}[1]{\qquad [#1]}
+\newcommand{\adim}{\qquad [\text{--}]}
+
+\title{Bagna Naso \\ \large Quaderno di birrificazione}
+\author{figimodi}
+\date{Ottobre 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\clearpage
+\part{Formulario}
+\input{formulario}
+
+\clearpage
+\part{Impianto}
+\input{impianto}
+
+\clearpage
+\part{Cotte}
+% Una cotta per file: aggiungi qui \input{cottaNN}
+\input{cotte/cotta01}
+
+\end{document}

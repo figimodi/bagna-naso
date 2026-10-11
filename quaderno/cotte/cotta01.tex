@@ -1,0 +1,189 @@
+% =====================================================================
+\section{Cotta \#1 --- German Pilsener}
+% =====================================================================
+
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Data cotta & 19/09/2026 \\
+Stile & German Pilsener (BJCP 5D) \\
+Durata giornata & 8--9 \si{\hour} \\
+Volume in fermentatore & \SI{17}{\liter} ($9 + 4 + \SI{4}{\liter}$) \\
+Imbottigliamento & \#1: 4/10/2026 (\num{14,5} gg) --- \#2, \#3: 10/10/2026 (21 gg) \\
+Densimetro & starato: $SG = SG_{letta} + 0{,}005$ (valori sotto già corretti) \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Obiettivi e risultati}
+\begin{tabularx}{\linewidth}{@{}lccX@{}}
+\toprule
+Grandezza & Obiettivo & Misurato & Note \\
+\midrule
+$V_{pb}$ [\si{\liter}] & 19 & 20 & calcoli fatti con $V_{pb} = V_f$ \\
+$\varepsilon$ & 0,68 & 0,78 & con $V_{pb} = \SI{20}{\liter}$ \\
+$OG$ & 1,048 & 1,047 & letta 1,042 \\
+$FG$ & 1,012 & 1,012 / 1,005 & 4\,L dopo 13 gg / 9\,L all'imbottigliamento (dubbia) \\
+$A_{app}$ & 0,75 & 0,74 / 0,89 & \\
+$IBU$ & 30 & $\approx 25{,}4$ & \\
+$ABV$ [\si{\percent}] & 4,7 & 4,6 / 5,5 & prima di priming e infusioni \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Ricetta}
+
+\subsubsection*{Malto}
+\begin{tabularx}{\linewidth}{@{}Xrr@{}}
+\toprule
+Malto & Massa [\si{\kilo\gram}] & \% \\
+\midrule
+IREKS Pilsner & 4,00 & 100 \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Luppolo}
+\begin{tabularx}{\linewidth}{@{}Xccccr@{}}
+\toprule
+Luppolo & Forma & $a$ [\si{\percent}] & Massa [\si{\gram}] & Aggiunta & $IBU_i$ \\
+\midrule
+Hersbrucker & pellet & 4,1 & 33 & \SI{60}{\minute} & 20,3 \\
+Tettnanger  & pellet & 3,8 & 18 & \SI{15}{\minute} & 5,1 \\
+\bottomrule
+\end{tabularx}
+
+\noindent Rapporto amaricante/aromatico $r = 1{,}8$.
+
+\subsubsection*{Lievito}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Ceppo & Lallemand Nottingham High Performance Ale (secco) \\
+Quantità & \SI{11}{\gram} $\;\to\; q_y = \SI{0,65}{\gram\per\liter}$, $N \approx \SI{3,2e6}{\cell\per\milli\liter}$ \\
+Attenuazione dichiarata & 75--85\,\% \\
+Range temperatura & 10--\SI{22}{\celsius} \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Acqua}
+\begin{tabularx}{\linewidth}{@{}lccc@{}}
+\toprule
+ & Rocchetta [\si{\liter}] & Lauretana [\si{\liter}] & Totale [\si{\liter}] \\
+\midrule
+Mash   & 8,1 & 5,5 & 13,6 \\
+Sparge & 8,4 & 5,5 & 13,9 \\
+\midrule
+Totale & 16,5 & 11,0 & 27,5 \\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\noindent Miscela $\approx$ 60\,\% Rocchetta / 40\,\% Lauretana. Sparge acidificata a pH $\approx 5$.
+
+\smallskip
+\begin{tabularx}{\linewidth}{@{}*{7}{>{\centering\arraybackslash}X}@{}}
+\toprule
+Ca$^{2+}$ & Mg$^{2+}$ & Na$^{+}$ & Cl$^{-}$ & SO$_4^{2-}$ & HCO$_3^{-}$ & Residuo fisso \\
+\midrule
+34 & 2,5 & 2,9 & 5 & 3,6 & 113 & 112 \\
+\bottomrule
+\end{tabularx}
+\noindent{\small Concentrazioni in \si{\milli\gram\per\liter}.}
+
+% ---------------------------------------------------------------------
+\subsection*{Processo}
+
+\subsubsection*{Mash e sparge}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Rapporto di mash $R$ & \SI{3,5}{\liter\per\kilo\gram} \\
+Volume mash / sparge & \SI{14}{\liter} / \SI{13,5}{\liter} (calcolati) \\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\begin{tabularx}{\linewidth}{@{}Xcc@{}}
+\toprule
+Step & Temperatura & Durata \\
+\midrule
+Protein rest & \SI{52}{\celsius} & \SI{10}{\minute} \\
+Saccarificazione & \SI{67}{\celsius} & \SI{50}{\minute} \\
+Mash-out & \SI{78}{\celsius} & \SI{10}{\minute} \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Bollitura}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Durata & \SI{60}{\minute} \\
+Evaporazione stimata $\sigma$ & \SI{3}{\liter\per\hour} \\
+Volume post-bollitura & \SI{20}{\liter} (raffreddato) \\
+Raffreddamento & chiller, con perdite al sistema di pompaggio \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Fermentazione}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Fase 1 & \SI{15}{\celsius} per 7 gg \\
+Fase 2 & \SI{18}{\celsius} per 7 gg \\
+Termostato & isteresi $-1/+0$ \si{\celsius} $\Rightarrow T_f^{max} = \SI{18}{\celsius}$ \\
+\bottomrule
+\end{tabularx}
+
+\medskip
+\begin{tabularx}{\linewidth}{@{}clcX@{}}
+\toprule
+\# & Volume & Variante & Aggiunte \\
+\midrule
+1 & \SI{9}{\liter} & base & --- \\
+2 & \SI{4}{\liter} & limone & $\sim$1,5 bucce di limone + \SI{100}{\milli\liter} vodka 37,5\,\% ($\Delta ABV \approx 0{,}9$) \\
+3 & \SI{4}{\liter} & arancia amara & \SI{5}{\gram} bucce essiccate + \SI{50}{\milli\liter} vodka 37,5\,\% ($\Delta ABV \approx 0{,}5$) \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Imbottigliamento --- fermentatore \#1 (4/10/2026)}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+CO$_2$ obiettivo / residua & \SI{2,5}{\vol} / \SI{0,9}{\vol} \\
+Bottiglie & 27 $\times$ \SI{33}{\centi\liter} \\
+Bottiglie 1--18 & \SI{55,5}{\gram} saccarosio in \SI{75}{\milli\liter} d'acqua su $\approx\SI{5,9}{\liter}$ $\Rightarrow c_s \approx \SI{9,3}{\gram\per\liter}$, $v \approx \SI{3,3}{\vol}$, $\Delta ABV_p \approx 0{,}6$ \\
+Bottiglie 19--27 & priming corretto: $c_s \approx \SI{6,2}{\gram\per\liter}$, $v \approx \SI{2,5}{\vol}$, $\Delta ABV_p \approx 0{,}4$ \\
+\bottomrule
+\end{tabularx}
+
+\subsubsection*{Imbottigliamento --- fermentatori \#2 e \#3 (10/10/2026)}
+\begin{tabularx}{\linewidth}{@{}lX@{}}
+\toprule
+Limone (\#2) & 9 $\times$ \SI{33}{\centi\liter} \\
+Arancia amara (\#3) & 9 $\times$ \SI{33}{\centi\liter} \\
+Soluzione & \SI{101}{\gram} saccarosio in \SI{150}{\milli\liter} d'acqua, scaldata: volume finale misurato $\approx\SI{150}{\milli\liter}$ $\Rightarrow \gamma \approx \SI{0,67}{\gram\per\milli\liter}$ \\
+Dose & \SI{3}{\milli\liter} per bottiglia (nominali) \\
+Priming & $c_s \approx \SI{6,1}{\gram\per\liter} \Rightarrow v \approx \SI{2,5}{\vol}$, $\Delta ABV_p \approx 0{,}4$ \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Prodotto finito}
+\begin{tabularx}{\linewidth}{@{}lccX@{}}
+\toprule
+Variante & Bottiglie & $ABV$ [\si{\percent}] & Note \\
+\midrule
+Base          & 18 + 9 & $\sim$6,1 / $\sim$5,9 & bottiglie sovra-carbonate / corrette; colore dorato \\
+Limone        & 9  & $\sim$5,8 & base 4,6 + vodka + priming \\
+Arancia amara & 9  & $\sim$5,4 & base 4,6 + vodka + priming \\
+\bottomrule
+\end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Problemi e note per le prossime cotte}
+\begin{itemize}
+  \item $V_{pb}$ calcolato come $V_f$: mosto più diluito, IBU sotto obiettivo (OG quasi in target grazie a un'efficienza alta).
+  \item Aggiunti per errore \SI{0,5}{\liter} di contrazione a freddo: non servono se i volumi sono confrontati alla stessa temperatura.
+  \item Usare $V_l = \SI{2}{\liter}$ e $\eta = \SI{1,125}{\liter\per\kilo\gram}$ (IREKS Pilsner).
+  \item Lievito ale al posto di un lager: fermentazione più calda del previsto per lo stile.
+  \item Rubinetto del bollitore Vevor non sanificato prima del travaso.
+  \item Mosto torbido in fermentatore: filtraggio insufficiente su trebbie e luppolo.
+  \item Densimetro starato di $-5$ punti: tarare in acqua distillata a \SI{20}{\celsius} prima di ogni cotta.
+  \item $FG = 1{,}005$ del fermentatore \#1 sospetta: campione contaminato da soluzione zuccherina, quindi la FG reale è ancora più bassa ($A_{app} \gtrsim 0{,}89$, sopra il range del lievito).
+  \item ABV di \#2 e \#3 calcolato con la FG misurata a 13 gg: all'imbottigliamento (21 gg) può essere un po' più alto.
+  \item Priming della base dosato male: tutta la soluzione (\SI{55,5}{\gram}) nelle prime 18 bottiglie ($\sim$\SI{3,3}{\vol}): attenzione all'apertura.
+  \item Soluzione di priming: misurare sempre il volume finale dopo il riscaldamento, l'evaporazione cambia la concentrazione.
+\end{itemize}

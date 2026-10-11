@@ -1,0 +1,171 @@
+% Formulario — incluso da main.tex
+% =====================================================================
+\section*{Convenzioni}
+\begin{itemize}
+  \item Le densità ($SG$, $OG$, $FG$) sono \emph{densità relative} a \SI{20}{\celsius}, adimensionali (es.\ $OG = 1{,}048$).
+  \item Correzione del densimetro: $SG = SG_{letta} + \delta$, con $\delta$ misurato in acqua distillata a \SI{20}{\celsius} ($\delta = 1 - SG_{letta,acqua}$).
+  \item $1\ \si{\pt}$ (gravity point) $= 10^{-3}$ di densità relativa sopra 1.
+  \item Gli acidi alfa $a$ e le efficienze sono espressi come \emph{frazioni} (es.\ $4{,}1\% \to 0{,}041$).
+  \item L'unità tra parentesi quadre a destra è quella della grandezza a sinistra dell'uguale.
+\end{itemize}
+
+% =====================================================================
+\section{Densità e volumi}
+
+\begin{align}
+GU &= 1000\,(SG - 1) \un{\si{\pt}} \\[4pt]
+V_{pb} &= V_f + V_l \un{\si{\liter}}
+\end{align}
+dove $V_{pb}$ è il volume a fine bollitura (raffreddato), $V_f$ il volume in fermentatore, $V_l$ le perdite (fondi del bollitore e prelievi per misure).
+
+% =====================================================================
+\section{Malto}
+
+\begin{align}
+P_{tot} &= GU_{pb}\, V_{pb} \un{\si{\pt\liter}} \\[4pt]
+\sum_{i=1}^{n} P_i &= P_{tot} \un{\si{\pt\liter}} \\[4pt]
+y_i &= 10\, e_i\, \varepsilon \un{\si{\pt\liter\per\kilo\gram}} \\[4pt]
+m_i &= \frac{P_i}{y_i} \un{\si{\kilo\gram}}
+\end{align}
+dove $e_i$ è l'estratto potenziale del malto $i$ [\si{\pt\liter} per \SI{100}{\gram}] (vedi Tab.~\ref{tab:estratto}), $\varepsilon$ l'efficienza d'impianto, $y_i$ la resa effettiva, $m_i$ la massa di malto.
+
+\paragraph{Efficienza misurata (formula inversa).}
+\begin{equation}
+\varepsilon = \frac{GU_{pb}\, V_{pb}}{10 \displaystyle\sum_{i=1}^{n} e_i\, m_i} \adim
+\end{equation}
+
+% =====================================================================
+\section{Luppolo}
+
+\begin{align}
+IBU_i &= \frac{1000\; m_{h,i}\, U_i\, a_i}{V_{pb}\, C_g} \un{\si{\milli\gram\per\liter} \equiv \si{\IBU}} \\[4pt]
+C_g &=
+\begin{cases}
+1 & OG < 1{,}050\\[2pt]
+1 + \dfrac{OG - 1{,}050}{0{,}2} & OG \ge 1{,}050
+\end{cases} \adim \\[4pt]
+IBU &= \sum_{i=1}^{n} IBU_i \un{\si{\IBU}}
+\end{align}
+dove $m_{h,i}$ è la massa di luppolo [\si{\gram}], $U_i$ l'utilizzo (frazione, Tab.~\ref{tab:utilizzo}), $a_i$ la frazione di acidi alfa, $C_g$ il fattore di correzione per densità.
+
+\paragraph{Due luppoli con rapporto fissato.}
+Con rapporto amaricante/aromatico $r = m_{h,1}/m_{h,2}$:
+\begin{align}
+m_{h,2} &= \frac{IBU\; V_{pb}\, C_g}{1000\,\left(r\, U_1 a_1 + U_2 a_2\right)} \un{\si{\gram}} \\[4pt]
+m_{h,1} &= r\, m_{h,2} \un{\si{\gram}}
+\end{align}
+
+% =====================================================================
+\section{Lievito e fermentazione}
+
+\begin{align}
+q_y &= \frac{m_y}{V_f} \un{\si{\gram\per\liter}} \\[4pt]
+N &= \frac{m_y\, c_y}{1000\, V_f} \un{\si{\cell\per\milli\liter}} \\[4pt]
+A_{app} &= \frac{OG - FG}{OG - 1} \adim \\[4pt]
+FG &= OG - (OG - 1)\, A_{app} \adim \\[4pt]
+ABV &= 131{,}25\,(OG - FG) \un{\si{\percent} \text{ v/v}}
+\end{align}
+dove $m_y$ è la massa di lievito secco [\si{\gram}], $c_y$ le cellule per grammo [\si{\cell\per\gram}], $A_{app}$ l'attenuazione apparente.
+
+\paragraph{Aggiunta di un liquido alcolico (es.\ vodka per infusioni).}
+\begin{equation}
+\Delta ABV = \frac{V_{add}\; ABV_{add}}{V_f + V_{add}} \un{\si{\percent} \text{ v/v}}
+\end{equation}
+con $V_{add}$ e $V_f$ nella stessa unità di volume.
+
+% =====================================================================
+\section{Acqua}
+
+\begin{align}
+V_{ev} &= \sigma\, t_b \un{\si{\liter}} \\[4pt]
+V_{abs} &= \eta\, m_{tot} \un{\si{\liter}} \\[4pt]
+V_{w} &= V_f + V_l + V_{ev} + V_{abs} \un{\si{\liter}} \\[4pt]
+V_{m} &= R\, m_{tot} \un{\si{\liter}} \\[4pt]
+V_{sp} &= V_{w} - V_{m} \un{\si{\liter}}
+\end{align}
+dove $\sigma$ è il tasso di evaporazione [\si{\liter\per\hour}], $t_b$ la durata della bollitura [\si{\hour}], $\eta$ l'assorbimento delle trebbie [\si{\liter\per\kilo\gram}] (IREKS Pilsner: $\approx\SI{1,125}{\liter\per\kilo\gram}$), $m_{tot} = \sum m_i$ la massa totale di malto [\si{\kilo\gram}], $R$ il rapporto acqua/malto in ammostamento [\si{\liter\per\kilo\gram}], $V_m$ e $V_{sp}$ i volumi di mash e di sparge.
+
+% =====================================================================
+\section{Priming e imbottigliamento}
+
+\begin{align}
+c_s &= k_s\,\bigl(v_{t} - v_{r}(T_f)\bigr) \un{\si{\gram\per\liter}} \\[4pt]
+m_s &= c_s\, V_{b} \un{\si{\gram}}
+\end{align}
+dove $v_t$ sono i volumi di CO$_2$ obiettivo [\si{\vol}], $v_r$ i volumi residui alla temperatura massima di fermentazione $T_f$ (Tab.~\ref{tab:co2}), $k_s = \SI{3,86}{\gram\per\liter}$ per \SI{1}{\vol} (saccarosio), $V_b$ il volume di birra da imbottigliare [\si{\liter}].
+
+\paragraph{CO$_2$ residua (approssimazione analitica).}
+\begin{equation}
+v_r = 3{,}0378 - 0{,}050062\,T_F + 0{,}00026555\,T_F^2, \qquad T_F = \tfrac{9}{5}\,T_f + 32 \un{\si{\vol}}
+\end{equation}
+con $T_f$ in \si{\celsius} e $T_F$ in \si{\degree}F.
+
+\paragraph{Soluzione zuccherina.}
+\begin{align}
+V_{w,s} &= m_s\left(\frac{1}{\gamma} - \bar v_s\right) \un{\si{\milli\liter}} \\[4pt]
+\gamma &= \frac{m_s}{V_{w,s} + \bar v_s\, m_s} \un{\si{\gram\per\milli\liter}} \\[4pt]
+q_{sol} &= \frac{c_s}{\gamma} \un{\si{\milli\liter\per\liter}} \\[4pt]
+V_{sol,bt} &= \frac{c_s\, V_{bt}}{\gamma} \un{\si{\milli\liter}} \\[4pt]
+\Delta ABV_{p} &= 0{,}0648\; c_s \un{\si{\percent} \text{ v/v}}
+\end{align}
+dove $\gamma$ è la concentrazione della soluzione (obiettivo, poi ricalcolata a valle della bollitura misurandone il volume), $\bar v_s = \SI{0,63}{\milli\liter\per\gram}$ il volume specifico del saccarosio disciolto, $V_{w,s}$ l'acqua da aggiungere, $V_{bt}$ il volume della bottiglia [\si{\liter}] (es.\ $0{,}33$), $q_{sol}$ la dose per litro di birra.
+
+\paragraph{Verifica a posteriori.}
+\begin{equation}
+c_s^{eff} = \frac{\gamma\, V_{sol,usata}}{V_{b,imb}} \un{\si{\gram\per\liter}}, \qquad
+v_{tot} = v_r + \frac{c_s^{eff}}{k_s} \un{\si{\vol}}
+\end{equation}
+
+% =====================================================================
+\clearpage
+\section*{Tabelle di riferimento}
+\addcontentsline{toc}{section}{Tabelle di riferimento}
+
+\begin{table}[H]
+\centering\small
+\begin{minipage}[t]{0.52\textwidth}\centering
+\captionof{table}{Estratto potenziale $e_i$}\label{tab:estratto}
+\begin{tabular}{lc}
+\toprule
+Malto & $e_i$ [\si{\pt\liter}/\SI{100}{\gram}] \\
+\midrule
+Chocolate / black / roast & 25 \\
+Crystal e Cara & 28--29 \\
+Munich / Vienna / mild / biscuit & 29--31 \\
+Pale o Pilsner & 29--31 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.44\textwidth}\centering
+\captionof{table}{Utilizzo del luppolo $U_i$ [\%]}\label{tab:utilizzo}
+\begin{tabular}{lcc}
+\toprule
+$t$ bollitura [\si{\minute}] & Coni & Pellet \\
+\midrule
+Dry hopping & 0 & 0 \\
+0--9 & 5 & 6 \\
+10--19 & 12 & 15 \\
+20--29 & 15 & 19 \\
+30--44 & 19 & 24 \\
+45--59 & 22 & 27 \\
+60--74 & 24 & 30 \\
+$\ge 75$ & 27 & 34 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{table}
+
+\begin{table}[H]
+\centering\small
+\caption{CO$_2$ residua $v_r$ [\si{\vol}] in funzione di $T_f$ [\si{\celsius}]}\label{tab:co2}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l*{11}{c}}
+\toprule
+$T_f$ & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 \\
+$v_r$ & 1,45 & 1,40 & 1,35 & 1,31 & 1,26 & 1,21 & 1,17 & 1,13 & 1,09 & 1,06 & 1,03 \\
+\midrule
+$T_f$ & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & 23 & 24 & 25 \\
+$v_r$ & 0,99 & 0,96 & 0,93 & 0,90 & 0,88 & 0,85 & 0,83 & 0,80 & 0,78 & 0,75 & 0,73 \\
+\bottomrule
+\end{tabular}
+\end{table}
