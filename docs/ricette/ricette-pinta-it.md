@@ -7,102 +7,106 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 <table>
 <tr><td colspan="6"><b>Lager</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#pilsner"><img src="pinta-immagini/pilsner.jpg" width="130" alt="Pilsner"></a><br><a href="#pilsner">Pilsner</a></td>
-<td align="center" valign="top" width="150"><a href="#bock-beer"><img src="pinta-immagini/bock-beer.jpg" width="130" alt="Bock Beer"></a><br><a href="#bock-beer">Bock Beer</a></td>
-<td align="center" valign="top" width="150"><a href="#oktoberfest"><img src="pinta-immagini/oktoberfest.jpg" width="130" alt="Oktoberfest"></a><br><a href="#oktoberfest">Oktoberfest</a></td>
-<td align="center" valign="top" width="150"><a href="#dark-amber-lager"><img src="pinta-immagini/dark-amber-lager.jpg" width="130" alt="Dark Amber Lager"></a><br><a href="#dark-amber-lager">Dark Amber Lager</a></td>
-<td align="center" valign="top" width="150"><a href="#saphir-lager"><img src="pinta-immagini/saphir-lager.jpg" width="130" alt="Saphir Lager"></a><br><a href="#saphir-lager">Saphir Lager</a></td>
-<td align="center" valign="top" width="150"><a href="#rauchbier"><img src="pinta-immagini/rauchbier.jpg" width="130" alt="Rauchbier"></a><br><a href="#rauchbier">Rauchbier</a></td>
+<td align="center" valign="top" width="150"><a href="#pilsner"><img src="pinta-immagini/pilsner.jpg" width="130" alt="Pilsner"></a><br><a href="#pilsner">Pilsner</a><br><small>5D German Pils</small></td>
+<td align="center" valign="top" width="150"><a href="#bock-beer"><img src="pinta-immagini/bock-beer.jpg" width="130" alt="Bock Beer"></a><br><a href="#bock-beer">Bock Beer</a><br><small>6C Dunkles Bock</small></td>
+<td align="center" valign="top" width="150"><a href="#oktoberfest"><img src="pinta-immagini/oktoberfest.jpg" width="130" alt="Oktoberfest"></a><br><a href="#oktoberfest">Oktoberfest</a><br><small>6A Märzen</small></td>
+<td align="center" valign="top" width="150"><a href="#dark-amber-lager"><img src="pinta-immagini/dark-amber-lager.jpg" width="130" alt="Dark Amber Lager"></a><br><a href="#dark-amber-lager">Dark Amber Lager</a><br><small>2C International Dark Lager</small></td>
+<td align="center" valign="top" width="150"><a href="#saphir-lager"><img src="pinta-immagini/saphir-lager.jpg" width="130" alt="Saphir Lager"></a><br><a href="#saphir-lager">Saphir Lager</a><br><small>5D German Pils</small></td>
+<td align="center" valign="top" width="150"><a href="#rauchbier"><img src="pinta-immagini/rauchbier.jpg" width="130" alt="Rauchbier"></a><br><a href="#rauchbier">Rauchbier</a><br><small>6B Rauchbier</small></td>
 </tr>
 <tr><td colspan="6"><b>Frumento e witbier</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#weizen"><img src="pinta-immagini/weizen.jpg" width="130" alt="Weizen"></a><br><a href="#weizen">Weizen</a></td>
-<td align="center" valign="top" width="150"><a href="#dunkelweizen"><img src="pinta-immagini/dunkelweizen.jpg" width="130" alt="Dunkelweizen"></a><br><a href="#dunkelweizen">Dunkelweizen</a></td>
-<td align="center" valign="top" width="150"><a href="#american-wheat"><img src="pinta-immagini/american-wheat.jpg" width="130" alt="American Wheat"></a><br><a href="#american-wheat">American Wheat</a></td>
-<td align="center" valign="top" width="150"><a href="#mandarina-exp-wheat"><img src="pinta-immagini/mandarina-exp-wheat.jpg" width="130" alt="Mandarina EXP Wheat"></a><br><a href="#mandarina-exp-wheat">Mandarina EXP Wheat</a></td>
-<td align="center" valign="top" width="150"><a href="#belgian-blanche"><img src="pinta-immagini/belgian-blanche.jpg" width="130" alt="Belgian Blanche"></a><br><a href="#belgian-blanche">Belgian Blanche</a></td>
-<td align="center" valign="top" width="150"><a href="#american-witbier"><img src="pinta-immagini/american-witbier.jpg" width="130" alt="American Witbier"></a><br><a href="#american-witbier">American Witbier</a></td>
+<td align="center" valign="top" width="150"><a href="#weizen"><img src="pinta-immagini/weizen.jpg" width="130" alt="Weizen"></a><br><a href="#weizen">Weizen</a><br><small>10A Weissbier</small></td>
+<td align="center" valign="top" width="150"><a href="#dunkelweizen"><img src="pinta-immagini/dunkelweizen.jpg" width="130" alt="Dunkelweizen"></a><br><a href="#dunkelweizen">Dunkelweizen</a><br><small>10B Dunkles Weissbier</small></td>
+<td align="center" valign="top" width="150"><a href="#american-wheat"><img src="pinta-immagini/american-wheat.jpg" width="130" alt="American Wheat"></a><br><a href="#american-wheat">American Wheat</a><br><small>1D American Wheat Beer</small></td>
+<td align="center" valign="top" width="150"><a href="#mandarina-exp-wheat"><img src="pinta-immagini/mandarina-exp-wheat.jpg" width="130" alt="Mandarina EXP Wheat"></a><br><a href="#mandarina-exp-wheat">Mandarina EXP Wheat</a><br><small>1D American Wheat Beer (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#belgian-blanche"><img src="pinta-immagini/belgian-blanche.jpg" width="130" alt="Belgian Blanche"></a><br><a href="#belgian-blanche">Belgian Blanche</a><br><small>24A Witbier</small></td>
+<td align="center" valign="top" width="150"><a href="#american-witbier"><img src="pinta-immagini/american-witbier.jpg" width="130" alt="American Witbier"></a><br><a href="#american-witbier">American Witbier</a><br><small>24A Witbier</small></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#new-world-wit"><img src="pinta-immagini/new-world-wit.jpg" width="130" alt="New World Wit"></a><br><a href="#new-world-wit">New World Wit</a></td>
-<td align="center" valign="top" width="150"><a href="#blanc-ale"><img src="pinta-immagini/blanc-ale.jpg" width="130" alt="Blanc Ale"></a><br><a href="#blanc-ale">Blanc Ale</a></td>
+<td align="center" valign="top" width="150"><a href="#new-world-wit"><img src="pinta-immagini/new-world-wit.jpg" width="130" alt="New World Wit"></a><br><a href="#new-world-wit">New World Wit</a><br><small>24A Witbier</small></td>
+<td align="center" valign="top" width="150"><a href="#blanc-ale"><img src="pinta-immagini/blanc-ale.jpg" width="130" alt="Blanc Ale"></a><br><a href="#blanc-ale">Blanc Ale</a><br><small>1D American Wheat Beer (incerta)</small></td>
 </tr>
 <tr><td colspan="6"><b>Pale ale, IPA e chiare</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#golden-summer-beer"><img src="pinta-immagini/golden-summer-beer.jpg" width="130" alt="Golden Summer Beer"></a><br><a href="#golden-summer-beer">Golden Summer Beer</a></td>
-<td align="center" valign="top" width="150"><a href="#blonde-ale"><img src="pinta-immagini/blonde-ale.jpg" width="130" alt="Blonde Ale"></a><br><a href="#blonde-ale">Blonde Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#american-pale-ale"><img src="pinta-immagini/american-pale-ale.jpg" width="130" alt="American Pale Ale"></a><br><a href="#american-pale-ale">American Pale Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#australian-pale-ale"><img src="pinta-immagini/australian-pale-ale.jpg" width="130" alt="Australian Pale Ale"></a><br><a href="#australian-pale-ale">Australian Pale Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#apa-burst"><img src="pinta-immagini/apa-burst.jpg" width="130" alt="APA Burst"></a><br><a href="#apa-burst">APA Burst</a></td>
-<td align="center" valign="top" width="150"><a href="#american-sabro-ale"><img src="pinta-immagini/american-sabro-ale.jpg" width="130" alt="American Sabro Ale"></a><br><a href="#american-sabro-ale">American Sabro Ale</a></td>
+<td align="center" valign="top" width="150"><a href="#golden-summer-beer"><img src="pinta-immagini/golden-summer-beer.jpg" width="130" alt="Golden Summer Beer"></a><br><a href="#golden-summer-beer">Golden Summer Beer</a><br><small>12A British Golden Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#blonde-ale"><img src="pinta-immagini/blonde-ale.jpg" width="130" alt="Blonde Ale"></a><br><a href="#blonde-ale">Blonde Ale</a><br><small>18A Blonde Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#american-pale-ale"><img src="pinta-immagini/american-pale-ale.jpg" width="130" alt="American Pale Ale"></a><br><a href="#american-pale-ale">American Pale Ale</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#australian-pale-ale"><img src="pinta-immagini/australian-pale-ale.jpg" width="130" alt="Australian Pale Ale"></a><br><a href="#australian-pale-ale">Australian Pale Ale</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#apa-burst"><img src="pinta-immagini/apa-burst.jpg" width="130" alt="APA Burst"></a><br><a href="#apa-burst">APA Burst</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#american-sabro-ale"><img src="pinta-immagini/american-sabro-ale.jpg" width="130" alt="American Sabro Ale"></a><br><a href="#american-sabro-ale">American Sabro Ale</a><br><small>18B American Pale Ale</small></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#lemon-ipa"><img src="pinta-immagini/lemon-ipa.jpg" width="130" alt="Lemon IPA"></a><br><a href="#lemon-ipa">Lemon IPA</a></td>
-<td align="center" valign="top" width="150"><a href="#nz-session-ale"><img src="pinta-immagini/nz-session-ale.jpg" width="130" alt="NZ Session Ale"></a><br><a href="#nz-session-ale">NZ Session Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#topaz-au-pale-ale"><img src="pinta-immagini/topaz-au-pale-ale.jpg" width="130" alt="Topaz Au Pale Ale"></a><br><a href="#topaz-au-pale-ale">Topaz Au Pale Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#rye-pale-ale"><img src="pinta-immagini/rye-pale-ale.jpg" width="130" alt="Rye Pale Ale"></a><br><a href="#rye-pale-ale">Rye Pale Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#citrus-ale"><img src="pinta-immagini/citrus-ale.jpg" width="130" alt="Citrus Ale"></a><br><a href="#citrus-ale">Citrus Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#polaris-mojito"><img src="pinta-immagini/polaris-mojito.jpg" width="130" alt="Polaris Mojito"></a><br><a href="#polaris-mojito">Polaris Mojito</a></td>
+<td align="center" valign="top" width="150"><a href="#lemon-ipa"><img src="pinta-immagini/lemon-ipa.jpg" width="130" alt="Lemon IPA"></a><br><a href="#lemon-ipa">Lemon IPA</a><br><small>21A American IPA (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#nz-session-ale"><img src="pinta-immagini/nz-session-ale.jpg" width="130" alt="NZ Session Ale"></a><br><a href="#nz-session-ale">NZ Session Ale</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#topaz-au-pale-ale"><img src="pinta-immagini/topaz-au-pale-ale.jpg" width="130" alt="Topaz Au Pale Ale"></a><br><a href="#topaz-au-pale-ale">Topaz Au Pale Ale</a><br><small>18B American Pale Ale (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#rye-pale-ale"><img src="pinta-immagini/rye-pale-ale.jpg" width="130" alt="Rye Pale Ale"></a><br><a href="#rye-pale-ale">Rye Pale Ale</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#citrus-ale"><img src="pinta-immagini/citrus-ale.jpg" width="130" alt="Citrus Ale"></a><br><a href="#citrus-ale">Citrus Ale</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#melon-ale"><img src="pinta-immagini/melon-ale.jpg" width="130" alt="Melon-Ale"></a><br><a href="#melon-ale">Melon-Ale</a><br><small>18B American Pale Ale</small></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#melon-ale"><img src="pinta-immagini/melon-ale.jpg" width="130" alt="Melon-Ale"></a><br><a href="#melon-ale">Melon-Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#american-ale"><img src="pinta-immagini/american-ale.jpg" width="130" alt="American Ale"></a><br><a href="#american-ale">American Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#black-ipa"><img src="pinta-immagini/black-ipa.jpg" width="130" alt="Black IPA"></a><br><a href="#black-ipa">Black IPA</a></td>
-<td align="center" valign="top" width="150"><a href="#summit-black-ipa"><img src="pinta-immagini/summit-black-ipa.jpg" width="130" alt="Summit Black IPA"></a><br><a href="#summit-black-ipa">Summit Black IPA</a></td>
-<td align="center" valign="top" width="150"><a href="#neipa"><img src="pinta-immagini/neipa.jpg" width="130" alt="NEIPA"></a><br><a href="#neipa">NEIPA</a></td>
-<td align="center" valign="top" width="150"><a href="#european-ale"><img src="pinta-immagini/european-ale.jpg" width="130" alt="European Ale"></a><br><a href="#european-ale">European Ale</a></td>
-</tr>
-<tr>
-<td align="center" valign="top" width="150"><a href="#ginger-rye"><img src="pinta-immagini/ginger-rye.jpg" width="130" alt="Ginger Rye"></a><br><a href="#ginger-rye">Ginger Rye</a></td>
+<td align="center" valign="top" width="150"><a href="#american-ale"><img src="pinta-immagini/american-ale.jpg" width="130" alt="American Ale"></a><br><a href="#american-ale">American Ale</a><br><small>18B American Pale Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#black-ipa"><img src="pinta-immagini/black-ipa.jpg" width="130" alt="Black IPA"></a><br><a href="#black-ipa">Black IPA</a><br><small>21B Specialty IPA: Black IPA</small></td>
+<td align="center" valign="top" width="150"><a href="#summit-black-ipa"><img src="pinta-immagini/summit-black-ipa.jpg" width="130" alt="Summit Black IPA"></a><br><a href="#summit-black-ipa">Summit Black IPA</a><br><small>21B Specialty IPA: Black IPA</small></td>
+<td align="center" valign="top" width="150"><a href="#neipa"><img src="pinta-immagini/neipa.jpg" width="130" alt="NEIPA"></a><br><a href="#neipa">NEIPA</a><br><small>21C Hazy IPA</small></td>
+<td align="center" valign="top" width="150"><a href="#european-ale"><img src="pinta-immagini/european-ale.jpg" width="130" alt="European Ale"></a><br><a href="#european-ale">European Ale</a><br><small>18B American Pale Ale</small></td>
 </tr>
 <tr><td colspan="6"><b>Ambrate, rosse e brune</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#best-bitter"><img src="pinta-immagini/best-bitter.jpg" width="130" alt="Best Bitter"></a><br><a href="#best-bitter">Best Bitter</a></td>
-<td align="center" valign="top" width="150"><a href="#american-amber-ale"><img src="pinta-immagini/american-amber-ale.jpg" width="130" alt="American Amber Ale"></a><br><a href="#american-amber-ale">American Amber Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#american-brown-ale"><img src="pinta-immagini/american-brown-ale.jpg" width="130" alt="American Brown Ale"></a><br><a href="#american-brown-ale">American Brown Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#west-coast-brown-ale"><img src="pinta-immagini/west-coast-brown-ale.jpg" width="130" alt="West Coast Brown Ale"></a><br><a href="#west-coast-brown-ale">West Coast Brown Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#irish-red-ale"><img src="pinta-immagini/irish-red-ale.jpg" width="130" alt="Irish Red Ale"></a><br><a href="#irish-red-ale">Irish Red Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#mild-ale"><img src="pinta-immagini/mild-ale.jpg" width="130" alt="Mild Ale"></a><br><a href="#mild-ale">Mild Ale</a></td>
+<td align="center" valign="top" width="150"><a href="#best-bitter"><img src="pinta-immagini/best-bitter.jpg" width="130" alt="Best Bitter"></a><br><a href="#best-bitter">Best Bitter</a><br><small>11B Best Bitter</small></td>
+<td align="center" valign="top" width="150"><a href="#american-amber-ale"><img src="pinta-immagini/american-amber-ale.jpg" width="130" alt="American Amber Ale"></a><br><a href="#american-amber-ale">American Amber Ale</a><br><small>19A American Amber Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#american-brown-ale"><img src="pinta-immagini/american-brown-ale.jpg" width="130" alt="American Brown Ale"></a><br><a href="#american-brown-ale">American Brown Ale</a><br><small>19C American Brown Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#west-coast-brown-ale"><img src="pinta-immagini/west-coast-brown-ale.jpg" width="130" alt="West Coast Brown Ale"></a><br><a href="#west-coast-brown-ale">West Coast Brown Ale</a><br><small>19C American Brown Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#irish-red-ale"><img src="pinta-immagini/irish-red-ale.jpg" width="130" alt="Irish Red Ale"></a><br><a href="#irish-red-ale">Irish Red Ale</a><br><small>15A Irish Red Ale</small></td>
+<td align="center" valign="top" width="150"><a href="#mild-ale"><img src="pinta-immagini/mild-ale.jpg" width="130" alt="Mild Ale"></a><br><a href="#mild-ale">Mild Ale</a><br><small>13A Dark Mild</small></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#rye-mild"><img src="pinta-immagini/rye-mild.jpg" width="130" alt="Rye Mild"></a><br><a href="#rye-mild">Rye Mild</a></td>
-<td align="center" valign="top" width="150"><a href="#scottish-heavy"><img src="pinta-immagini/scottish-heavy.jpg" width="130" alt="Scottish Heavy"></a><br><a href="#scottish-heavy">Scottish Heavy</a></td>
-<td align="center" valign="top" width="150"><a href="#english-ale"><img src="pinta-immagini/english-ale.jpg" width="130" alt="English Ale"></a><br><a href="#english-ale">English Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#california-common"><img src="pinta-immagini/california-common.jpg" width="130" alt="California Common"></a><br><a href="#california-common">California Common</a></td>
+<td align="center" valign="top" width="150"><a href="#rye-mild"><img src="pinta-immagini/rye-mild.jpg" width="130" alt="Rye Mild"></a><br><a href="#rye-mild">Rye Mild</a><br><small>13A Dark Mild</small></td>
+<td align="center" valign="top" width="150"><a href="#scottish-heavy"><img src="pinta-immagini/scottish-heavy.jpg" width="130" alt="Scottish Heavy"></a><br><a href="#scottish-heavy">Scottish Heavy</a><br><small>14B Scottish Heavy</small></td>
+<td align="center" valign="top" width="150"><a href="#english-ale"><img src="pinta-immagini/english-ale.jpg" width="130" alt="English Ale"></a><br><a href="#english-ale">English Ale</a><br><small>11A Ordinary Bitter (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#california-common"><img src="pinta-immagini/california-common.jpg" width="130" alt="California Common"></a><br><a href="#california-common">California Common</a><br><small>19B California Common</small></td>
 </tr>
 <tr><td colspan="6"><b>Porter e stout</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#london-porter"><img src="pinta-immagini/london-porter.jpg" width="130" alt="London Porter"></a><br><a href="#london-porter">London Porter</a></td>
-<td align="center" valign="top" width="150"><a href="#chocolate-porter"><img src="pinta-immagini/chocolate-porter.jpg" width="130" alt="Chocolate Porter"></a><br><a href="#chocolate-porter">Chocolate Porter</a></td>
-<td align="center" valign="top" width="150"><a href="#irish-stout"><img src="pinta-immagini/irish-stout.jpg" width="130" alt="Irish Stout"></a><br><a href="#irish-stout">Irish Stout</a></td>
-<td align="center" valign="top" width="150"><a href="#coffee-stout"><img src="pinta-immagini/coffee-stout.jpg" width="130" alt="Coffee Stout"></a><br><a href="#coffee-stout">Coffee Stout</a></td>
-<td align="center" valign="top" width="150"><a href="#ginger-rye-1"><img src="pinta-immagini/ginger-rye-2.jpg" width="130" alt="Ginger Rye"></a><br><a href="#ginger-rye-1">Ginger Rye</a></td>
+<td align="center" valign="top" width="150"><a href="#london-porter"><img src="pinta-immagini/london-porter.jpg" width="130" alt="London Porter"></a><br><a href="#london-porter">London Porter</a><br><small>13C English Porter</small></td>
+<td align="center" valign="top" width="150"><a href="#chocolate-porter"><img src="pinta-immagini/chocolate-porter.jpg" width="130" alt="Chocolate Porter"></a><br><a href="#chocolate-porter">Chocolate Porter</a><br><small>20A American Porter (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#irish-stout"><img src="pinta-immagini/irish-stout.jpg" width="130" alt="Irish Stout"></a><br><a href="#irish-stout">Irish Stout</a><br><small>15B Irish Stout</small></td>
+<td align="center" valign="top" width="150"><a href="#coffee-stout"><img src="pinta-immagini/coffee-stout.jpg" width="130" alt="Coffee Stout"></a><br><a href="#coffee-stout">Coffee Stout</a><br><small>20B American Stout</small></td>
+<td align="center" valign="top" width="150"><a href="#ginger-rye-1"><img src="pinta-immagini/ginger-rye-2.jpg" width="130" alt="Ginger Rye"></a><br><a href="#ginger-rye-1">Ginger Rye</a><br><small>20A American Porter</small></td>
 </tr>
 <tr><td colspan="6"><b>Belga e saison</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#belgian-dubbel"><img src="pinta-immagini/belgian-dubbel.jpg" width="130" alt="Belgian Dubbel"></a><br><a href="#belgian-dubbel">Belgian Dubbel</a></td>
-<td align="center" valign="top" width="150"><a href="#belgian-tripel"><img src="pinta-immagini/belgian-tripel.jpg" width="130" alt="Belgian Tripel"></a><br><a href="#belgian-tripel">Belgian Tripel</a></td>
-<td align="center" valign="top" width="150"><a href="#abbey-beer"><img src="pinta-immagini/abbey-beer.jpg" width="130" alt="Abbey Beer"></a><br><a href="#abbey-beer">Abbey Beer</a></td>
-<td align="center" valign="top" width="150"><a href="#paters-beer"><img src="pinta-immagini/paters-beer.jpg" width="130" alt="Paters Beer"></a><br><a href="#paters-beer">Paters Beer</a></td>
-<td align="center" valign="top" width="150"><a href="#belgian-speciality-ale"><img src="pinta-immagini/belgian-speciality-ale.jpg" width="130" alt="Belgian Speciality Ale"></a><br><a href="#belgian-speciality-ale">Belgian Speciality Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#belgian-amber-ale"><img src="pinta-immagini/belgian-amber-ale.jpg" width="130" alt="Belgian Amber Ale"></a><br><a href="#belgian-amber-ale">Belgian Amber Ale</a></td>
+<td align="center" valign="top" width="150"><a href="#belgian-dubbel"><img src="pinta-immagini/belgian-dubbel.jpg" width="130" alt="Belgian Dubbel"></a><br><a href="#belgian-dubbel">Belgian Dubbel</a><br><small>26B Belgian Dubbel</small></td>
+<td align="center" valign="top" width="150"><a href="#belgian-tripel"><img src="pinta-immagini/belgian-tripel.jpg" width="130" alt="Belgian Tripel"></a><br><a href="#belgian-tripel">Belgian Tripel</a><br><small>26C Belgian Tripel</small></td>
+<td align="center" valign="top" width="150"><a href="#abbey-beer"><img src="pinta-immagini/abbey-beer.jpg" width="130" alt="Abbey Beer"></a><br><a href="#abbey-beer">Abbey Beer</a><br><small>26B Belgian Dubbel (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#paters-beer"><img src="pinta-immagini/paters-beer.jpg" width="130" alt="Paters Beer"></a><br><a href="#paters-beer">Paters Beer</a><br><small>26A Belgian Single</small></td>
+<td align="center" valign="top" width="150"><a href="#belgian-speciality-ale"><img src="pinta-immagini/belgian-speciality-ale.jpg" width="130" alt="Belgian Speciality Ale"></a><br><a href="#belgian-speciality-ale">Belgian Speciality Ale</a><br><small>24B Belgian Pale Ale (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#belgian-amber-ale"><img src="pinta-immagini/belgian-amber-ale.jpg" width="130" alt="Belgian Amber Ale"></a><br><a href="#belgian-amber-ale">Belgian Amber Ale</a><br><small>24B Belgian Pale Ale</small></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#saison"><img src="pinta-immagini/saison.jpg" width="130" alt="Saison"></a><br><a href="#saison">Saison</a></td>
-<td align="center" valign="top" width="150"><a href="#rye-saison"><img src="pinta-immagini/rye-saison.jpg" width="130" alt="Rye Saison"></a><br><a href="#rye-saison">Rye Saison</a></td>
-<td align="center" valign="top" width="150"><a href="#tropic-saison"><img src="pinta-immagini/tropic-saison.jpg" width="130" alt="Tropic Saison"></a><br><a href="#tropic-saison">Tropic Saison</a></td>
+<td align="center" valign="top" width="150"><a href="#saison"><img src="pinta-immagini/saison.jpg" width="130" alt="Saison"></a><br><a href="#saison">Saison</a><br><small>25B Saison</small></td>
+<td align="center" valign="top" width="150"><a href="#rye-saison"><img src="pinta-immagini/rye-saison.jpg" width="130" alt="Rye Saison"></a><br><a href="#rye-saison">Rye Saison</a><br><small>25B Saison</small></td>
+<td align="center" valign="top" width="150"><a href="#tropic-saison"><img src="pinta-immagini/tropic-saison.jpg" width="130" alt="Tropic Saison"></a><br><a href="#tropic-saison">Tropic Saison</a><br><small>25B Saison</small></td>
+<td align="center" valign="top" width="150"><a href="#belgian-strong-ale"><img src="pinta-immagini/belgian-strong-ale.jpg" width="130" alt="Belgian Strong Ale"></a><br><a href="#belgian-strong-ale">Belgian Strong Ale</a><br><small>25C Belgian Golden Strong Ale</small></td>
 </tr>
 <tr><td colspan="6"><b>Forti e invecchiate</b></td></tr>
 <tr>
-<td align="center" valign="top" width="150"><a href="#belgian-strong-ale"><img src="pinta-immagini/belgian-strong-ale.jpg" width="130" alt="Belgian Strong Ale"></a><br><a href="#belgian-strong-ale">Belgian Strong Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#barley-wine"><img src="pinta-immagini/barley-wine.jpg" width="130" alt="Barley Wine"></a><br><a href="#barley-wine">Barley Wine</a></td>
-<td align="center" valign="top" width="150"><a href="#old-ale"><img src="pinta-immagini/old-ale.jpg" width="130" alt="Old Ale"></a><br><a href="#old-ale">Old Ale</a></td>
-<td align="center" valign="top" width="150"><a href="#winter-warmer"><img src="pinta-immagini/winter-warmer.jpg" width="130" alt="Winter Warmer"></a><br><a href="#winter-warmer">Winter Warmer</a></td>
+<td align="center" valign="top" width="150"><a href="#barley-wine"><img src="pinta-immagini/barley-wine.jpg" width="130" alt="Barley Wine"></a><br><a href="#barley-wine">Barley Wine</a><br><small>17D English Barley Wine</small></td>
+<td align="center" valign="top" width="150"><a href="#old-ale"><img src="pinta-immagini/old-ale.jpg" width="130" alt="Old Ale"></a><br><a href="#old-ale">Old Ale</a><br><small>17B Old Ale</small></td>
+</tr>
+<tr><td colspan="6"><b>Speziate e stagionali</b></td></tr>
+<tr>
+<td align="center" valign="top" width="150"><a href="#polaris-mojito"><img src="pinta-immagini/polaris-mojito.jpg" width="130" alt="Polaris Mojito"></a><br><a href="#polaris-mojito">Polaris Mojito</a><br><small>30A Spice, Herb, or Vegetable Beer (incerta)</small></td>
+<td align="center" valign="top" width="150"><a href="#ginger-rye"><img src="pinta-immagini/ginger-rye.jpg" width="130" alt="Ginger Rye"></a><br><a href="#ginger-rye">Ginger Rye</a><br><small>30A Spice, Herb, or Vegetable Beer</small></td>
+<td align="center" valign="top" width="150"><a href="#winter-warmer"><img src="pinta-immagini/winter-warmer.jpg" width="130" alt="Winter Warmer"></a><br><a href="#winter-warmer">Winter Warmer</a><br><small>30C Winter Seasonal Beer</small></td>
 </tr>
 </table>
 
 
 ## American Pale Ale
+
+**Stile BJCP 2021:** 18B American Pale Ale
+
 
 **Descrizione:** L’ esaltazione dei luppoli da ampie sfaccettature aromatiche che si fondono con l’amaro classico delle Pale Ale.
 
@@ -150,6 +154,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Pilsner
 
+**Stile BJCP 2021:** 5D German Pils
+
+
 **Descrizione:** Bionda, gusto fresco, leggero e piacevolmente amaro. Birra a bassa fermentazione. Si distingue dalle altre birre per il ruolo marcato del luppolo
 
 ### Parametri
@@ -192,6 +199,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Belgian Dubbel
+
+**Stile BJCP 2021:** 26B Belgian Dubbel
+
 
 **Descrizione:** Una birra corposa amabile e fruttata che rispetta la tradizione belga. Il colore rosso scuro e profumi di frutta e chiodi di garofano si sposano con una birra dal forte tenore alcolico e un corpo molto importante.
 
@@ -239,6 +249,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Mild Ale
 
+**Stile BJCP 2021:** 13A Dark Mild
+
+
 **Descrizione:** Una birra poco luppolata dal corpo contenuto, una bevanda beverina che esalta molto il sapore del malto. Quando nel 17o secolo sono stati introdotti i luppoli dalla Germania e dall’Olanda gli inglesi hanno potuto abbassare il corpo delle loro strong ale in quanto il luppolo poteva preservare al meglio le loro birre.
 
 ### Parametri
@@ -281,6 +294,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Best Bitter
+
+**Stile BJCP 2021:** 11B Best Bitter
+
 
 **Descrizione:** Birra in stile inglese, una birra ricca di sapore, con un tono amarognolo e un gusto ricco come vuole la tradizione
 
@@ -328,6 +344,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Blonde Ale
 
+**Stile BJCP 2021:** 18A Blonde Ale
+
+
 **Descrizione:** Questa ale dal fantastico colore dorato sprigiona profumi e aromi agrumati. Birra dissetante e adatta ad ogni occasione
 
 ### Parametri
@@ -372,6 +391,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Barley Wine
 
+**Stile BJCP 2021:** 17D English Barley Wine
+
+
 **Descrizione:** Una birra rossa, non amara e dal carattere extra forte per le occasioni speciali. Impossibile non apprezzare appieno il sapore e il suo corpo ricco.
 
 ### Parametri
@@ -415,6 +437,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Golden Summer Beer
+
+**Stile BJCP 2021:** 12A British Golden Ale
+
 
 **Descrizione:** Birra dal colore dorato con un gusto pieno, speziato e luppolato. Una birra dissetante con un delizioso retrogusto agrumato
 
@@ -461,6 +486,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Weizen
 
+**Stile BJCP 2021:** 10A Weissbier
+
+
 **Descrizione:** Una birra leggera e chiara tipo “Weizen”, dal carattere fresco con un’aroma delicato di malto di frumento ed orzo. Bevanda ideale per l’estate.
 
 ### Parametri
@@ -503,6 +531,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Paters Beer
+
+**Stile BJCP 2021:** 26A Belgian Single
+
 
 **Descrizione:** Questa tipologia di birra trappista è originaria del monastero a Soligny. Questa birra chiamata anche “birra del Papà” è una varietà di birra trappista che inizialmente era stata pensata per essere bevuta solo dai monaci.
 
@@ -549,6 +580,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## London Porter
 
+**Stile BJCP 2021:** 13C English Porter
+
+
 **Descrizione:** Birra di colore scuro con un aroma di malto con leggeri sentori di tostato. Il suo nome fu usato per la prima volta nel XIX secolo, in seguito alla sua grande popolarità tra gli scaricatori di porto di Londra. Aroma moderato di luppolo che si sposa con un corpo equilibrato.
 
 ### Parametri
@@ -594,6 +628,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Belgian Blanche
 
+**Stile BJCP 2021:** 24A Witbier
+
+
 **Descrizione:** Birra bianca belga, scorrevole e piacevole. Un retrogusto lievemente acidulo come richiama lo stile che la rende perfetta nella stagione estiva
 
 ### Parametri
@@ -638,6 +675,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## American Wheat
 
+**Stile BJCP 2021:** 1D American Wheat Beer
+
+
 **Descrizione:** Una birra dal colore dorato e dal corpo medio. Il frumento si sposa con il luppolo americano donandole profumi e aromi più agrumati rispetto alle Wheatbier di matrice tedesca.
 
 ### Parametri
@@ -681,6 +721,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Abbey Beer
+
+**Stile BJCP 2021:** 26B Belgian Dubbel — **incerta**, alternativa: 26A Belgian Single
+
 
 **Descrizione:** Tipologia di birra belga che come indica il nome deriva dalle Abbazie. Ricetta del birraio inglese Dave Law che ha concepito questa birra non attenendosi allo stile modo fedele rendendola meno alcolica ma comunque corposa e importante.
 
@@ -727,6 +770,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Australian Pale Ale
 
+**Stile BJCP 2021:** 18B American Pale Ale
+
+
 **Descrizione:** Questa fantastica Ale usa luppoli Australiani per una birra aromatica e bilanciata. Una birra ambrata e rinfrescante con note floreali date dal luppoli Pacifici sia in bollitura che in dryhopping.Una birra eccezionale con profumi e aromi bilanciati ed eleganti.
 
 ### Parametri
@@ -769,6 +815,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Black IPA
+
+**Stile BJCP 2021:** 21B Specialty IPA: Black IPA
+
 
 **Descrizione:** Uno stile che sta avendo un enorme successo per l’accostamento dei malti scuri con le luppolature classiche americane. Una birra dissetante e intrigante con profumi intensi di pino e agrume dati dal luppolo Athanum uno dei luppoli americani più aromatici che rendono questa birra indimenticabile.
 
@@ -815,6 +864,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Bock Beer
+
+**Stile BJCP 2021:** 6C Dunkles Bock
+
 
 **Descrizione:** Un lager scura, forte, maltata e dal gusto deciso. Popolare nella regione bavarese della Germania. Questa birra ha tutto il carattere di una lager con il corpo di una birra scura.
 
@@ -863,6 +915,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## American Amber Ale
 
+**Stile BJCP 2021:** 19A American Amber Ale
+
+
 **Descrizione:** Con un fantastico colore ambrato e un carattere luppolato che esprime un mix di ribes nero piccante, linfa di pino e pompelmo. Al palato questa birra mostra il suo coraggio senza fatica fondendo i malti caramellati e tostati che si uniscono ai profumi e agli aromi complessi del luppolo.
 
 ### Parametri
@@ -910,6 +965,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Saison
 
+**Stile BJCP 2021:** 25B Saison
+
+
 **Descrizione:** Una birra fresca e dalla facile beva, uno stile tipicamente belga perfetto per le giornate d’estate
 
 ### Parametri
@@ -955,6 +1013,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## American Brown Ale
+
+**Stile BJCP 2021:** 19C American Brown Ale
+
 
 **Descrizione:** Una birra che fonde un corpo importante e un colore scuro all’aroma tipico dei luppoli americani.
 
@@ -1003,6 +1064,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Scottish Heavy
 
+**Stile BJCP 2021:** 14B Scottish Heavy
+
+
 **Descrizione:** Questa fantastica Ale usa luppoli Australiani per una birra aromatica e bilanciata. Una birra ambrata e rinfrescante con note floreali date dal luppolo Australiano sia in bollitura che in dryhopping.Una birra eccezionale con profumi e aromi bilanciati ed eleganti.
 
 ### Parametri
@@ -1043,6 +1107,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Winter Warmer
+
+**Stile BJCP 2021:** 30C Winter Seasonal Beer
+
 
 **Descrizione:** Birra corposa e speziata adatta al periodo invernale.
 
@@ -1091,6 +1158,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Polaris Mojito
 
+**Stile BJCP 2021:** 30A Spice, Herb, or Vegetable Beer — **incerta**, alternativa: 18B American Pale Ale
+
+
 **Descrizione:** Una birra leggera e beverina amarognola dove il luppolo Polaris con spiccate note di menta si sposa con le buccie di limone.
 
 ### Parametri
@@ -1134,6 +1204,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## American Sabro Ale
+
+**Stile BJCP 2021:** 18B American Pale Ale
+
 
 **Descrizione:** Una ale con monoluppolo Sabro, uno dei luppoli al momento più in voga e ricercati. Una birra dai sentori agrumati e complessi, beverina e dissetante.
 
@@ -1195,6 +1268,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Lemon IPA
 
+**Stile BJCP 2021:** 21A American IPA — **incerta**, alternativa: 18B American Pale Ale
+
+
 **Descrizione:** Un’american Pale Ale agrumata con sentori di pompelmo e frutta tropicale
 
 ### Parametri
@@ -1244,6 +1320,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Rye Saison
 
+**Stile BJCP 2021:** 25B Saison
+
+
 **Descrizione:** Una birra beverina e facile da bere, ma dai toni complessi e speziati.
 
 ### Parametri
@@ -1289,6 +1368,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Belgian Tripel
 
+**Stile BJCP 2021:** 26C Belgian Tripel
+
+
 **Descrizione:** Birra dal colore paglierino e dai forti aromi fruttati. Una birra importante, speziata che lascia un boccato piacevolmente dolce.
 
 ### Parametri
@@ -1330,6 +1412,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Tropic Saison
+
+**Stile BJCP 2021:** 25B Saison
+
 
 **Descrizione:** Funkwerks è uno piccolo birrificio in Colorado che è stato chiamato Piccolo Birrificio dell’anno al 2012 Great American Beer Festival . La loro Saison ha vinto l’oro nella manifestazione dopo aver vinto l’argento l’anno prima. Cofondatore e co-proprietario Gordon Schuck è stato così gentile da fornirci una ricetta
 
@@ -1376,6 +1461,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## New World Wit
 
+**Stile BJCP 2021:** 24A Witbier
+
+
 **Descrizione:** Una birra che abbina uno stile tipicamente belga con i luppoli Neozelandesi e australiani con i loro toni forti floreali e agrumati.
 
 ### Parametri
@@ -1417,6 +1505,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Coffee Stout
+
+**Stile BJCP 2021:** 20B American Stout
+
 
 **Descrizione:** Birra scura con forti sentori di tostato, un aroma complesso di malto e caffè e una finitura amara.
 
@@ -1464,6 +1555,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Old Ale
 
+**Stile BJCP 2021:** 17B Old Ale
+
+
 **Descrizione:** Una birra forte, alcolica e molto aromatica. Ricca e “calda” con un inconfondibile sapore “invecchiato”.
 
 ### Parametri
@@ -1506,6 +1600,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Rauchbier
+
+**Stile BJCP 2021:** 6B Rauchbier
+
 
 **Descrizione:** Una birra a bassa fermentazione, contraddistinto da un accentuato sapore di affumicato.
 
@@ -1553,6 +1650,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## American Ale
 
+**Stile BJCP 2021:** 18B American Pale Ale
+
+
 **Descrizione:** Birra dal colore chiaro con una schiuma persistente e soffice; gli aromi di caramello e si fondono con le note floreali e agrumate dei luppoli americani
 
 ### Parametri
@@ -1597,6 +1697,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Belgian Amber Ale
+
+**Stile BJCP 2021:** 24B Belgian Pale Ale
+
 
 **Descrizione:** Una birra amabile e rotonda, dal colore ramato. Una birra perfetta per gli amanti delle birre belghe.
 
@@ -1643,6 +1746,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Oktoberfest
 
+**Stile BJCP 2021:** 6A Märzen
+
+
 **Descrizione:** Originaria della Bavaria questa birra è un adattamento della Vienna Lager ma con un tasso alcolico poco più eleavato.
 
 ### Parametri
@@ -1688,6 +1794,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Irish Red Ale
 
+**Stile BJCP 2021:** 15A Irish Red Ale
+
+
 **Descrizione:** Una rossa in stile irlandese dove i malti caramello e una piccola quantità di orzo tostato donano un colore rosso carico.
 
 ### Parametri
@@ -1731,6 +1840,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Irish Stout
+
+**Stile BJCP 2021:** 15B Irish Stout
+
 
 **Descrizione:** Una stout in stile irlandese da ricetta di Taylor Caron, scura e corposa.
 
@@ -1777,6 +1889,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Dark Amber Lager
 
+**Stile BJCP 2021:** 2C International Dark Lager
+
+
 **Descrizione:** Birra a bassa fermentazione scura e dal gusto predominante di malto.
 
 ### Parametri
@@ -1820,6 +1935,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## West Coast Brown Ale
+
+**Stile BJCP 2021:** 19C American Brown Ale
+
 
 **Descrizione:** Una birra luppolata in stile West Coast che si sposano con il profilo maltato, di toffee e leggero cioccolato delle Brown Ale tradizionali. Una birra sorprendentemente semplice da bere
 
@@ -1870,6 +1988,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Chocolate Porter
 
+**Stile BJCP 2021:** 20A American Porter — **incerta**, alternativa: 13C English Porter
+
+
 **Descrizione:** Birra di colore scuro con un aroma di malto con leggeri sentori di tostato. Il suo nome fu usato per la prima volta nel XIX secolo, in seguito alla sua grande popolarità tra gli scaricatori di porto di Londra. Aroma moderato di luppolo che si sposa con un corpo equilibrato.
 
 ### Parametri
@@ -1913,6 +2034,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## European Ale
 
+**Stile BJCP 2021:** 18B American Pale Ale
+
+
 **Descrizione:** Una birra beverina non amara dai profumi di frutta, il nuovo luppolo Callista dona profumi di albicocche, more e lamponi e toni di frutto della passione, pesca, pompelmo e uva spina
 
 ### Parametri
@@ -1954,6 +2078,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Citrus Ale
+
+**Stile BJCP 2021:** 18B American Pale Ale
+
 
 **Descrizione:** Una ricetta di Jordan Ziegler e Dave Carpenter per questa birra beverina e dall’uso accentuato di luppoli molto aromatici e dal gusto citrico.
 
@@ -2003,6 +2130,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Dunkelweizen
 
+**Stile BJCP 2021:** 10B Dunkles Weissbier
+
+
 **Descrizione:** Ricetta offerta dei ragazzi del negozio Hops & Berries in Colorado. Questa birra della tradizione tedesca sposa i malti di frumento con i malti scuri.
 
 ### Parametri
@@ -2049,6 +2179,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Rye Pale Ale
 
+**Stile BJCP 2021:** 18B American Pale Ale
+
+
 **Descrizione:** Birra in stile americano alle segale, una birra molto luppolata dal gusto e dai profumi molto decisi.
 
 ### Parametri
@@ -2090,6 +2223,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Summit Black IPA
+
+**Stile BJCP 2021:** 21B Specialty IPA: Black IPA
+
 
 **Descrizione:** Luppolo americano dall’alfa acido molto alto. Dona alla birra intense note agrumate di limone e pompelmo
 
@@ -2136,6 +2272,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## American Witbier
+
+**Stile BJCP 2021:** 24A Witbier
+
 
 **Descrizione:** Ricetta della tradizione belga rivisitata con luppoli americani eleganti e agrumati.
 
@@ -2184,6 +2323,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## English Ale
 
+**Stile BJCP 2021:** 11A Ordinary Bitter — **incerta**, alternativa: 11B Best Bitter
+
+
 **Descrizione:** Una birra della tradizione inglese anglosassone. Una birra gustosa e profumata che bilancia un corpo importante al luppolo del Kent.
 
 ### Parametri
@@ -2226,6 +2368,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Belgian Strong Ale
+
+**Stile BJCP 2021:** 25C Belgian Golden Strong Ale
+
 
 **Descrizione:** Una birra alcolica e amabile in stile belga dai colori dorati
 
@@ -2270,6 +2415,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Saphir Lager
 
+**Stile BJCP 2021:** 5D German Pils
+
+
 **Descrizione:** Nuova varietà tedesca, dall’aroma armonioso e intenso con leggere note d’agrume. Ottimo sostituto del Saaz è indicato per l’aroma nelle Lager e Pilsner in stile europeo.
 
 ### Parametri
@@ -2313,6 +2461,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Rye Mild
 
+**Stile BJCP 2021:** 13A Dark Mild
+
+
 **Descrizione:** Una birra poco luppolata dal corpo contenuto, una bevanda beverina che esalta molto il sapore del malto ma arricchita dalle segale
 
 ### Parametri
@@ -2352,6 +2503,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Blanc Ale
+
+**Stile BJCP 2021:** 1D American Wheat Beer — **incerta**, alternativa: 24A Witbier
+
 
 **Descrizione:** Un luppolo tedesco molto aromatico con sentori floreali e e fruttati con frutto della passione, pompelmo, ananas, uva e sfumature citronella. Perfetto per birre dove il sapore del luppolo incide in modo importante. Viene indicato spesso come la risposta tedesca al Nelson Sauvin.
 
@@ -2398,6 +2552,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Belgian Speciality Ale
 
+**Stile BJCP 2021:** 24B Belgian Pale Ale — **incerta**, alternativa: 25A Belgian Blond Ale
+
+
 **Descrizione:** Una birra amabile dai gusti complessi in stile belga, non molto alcolica ma ricca di gusto
 
 ### Parametri
@@ -2441,6 +2598,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Topaz Au Pale Ale
+
+**Stile BJCP 2021:** 18B American Pale Ale — **incerta**, alternativa: 12B Australian Sparkling Ale
+
 
 **Descrizione:** Una Pale ale che unisce 2 dei luppoli più aromatici di australia e nuova zelanda
 
@@ -2500,6 +2660,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Mandarina EXP Wheat
 
+**Stile BJCP 2021:** 1D American Wheat Beer — **incerta**, alternativa: 18B American Pale Ale
+
+
 **Descrizione:** Nuovo luppolo tedesco selezionato nel 2012 incrociando il Cascade con una varietà autoctona. Ha un piacevole aroma fruttato che rivela una forte note di Mandarino con una punta dolce. Indicato in birre ad alta e a bassa fermentazione. Viene utilizzato per le sue qualità aromatiche anche in dry-hopping.
 
 ### Parametri
@@ -2544,6 +2707,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Melon-Ale
+
+**Stile BJCP 2021:** 18B American Pale Ale
+
 
 **Descrizione:** Una varietà di luppolo rilasciata nel 2012, dona note di melone e fragola e può essere utilizzato in molti stili birrai. Si sposa bene con le birre di frumento, ma anche con Pale Ale fino all’utilizzo nelle birre Brett.
 
@@ -2590,6 +2756,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## NZ Session Ale
 
+**Stile BJCP 2021:** 18B American Pale Ale
+
+
 **Descrizione:** Ricetta Allgrain e+g per una NZ Session Ale Una birra leggera e molto profumata, leggermente amarognola e carica di luppolo. Questa birra è perfetta per essere una birra da bere in grande quantità
 
 ### Parametri
@@ -2635,6 +2804,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## APA Burst
+
+**Stile BJCP 2021:** 18B American Pale Ale
+
 
 **Descrizione:** Una ricetta per una American Pale Ale di Girard e Jacobson vincitori del Hudson Valley Homebrew Competition nel 2010 in questa categoria.Una bomba di luppolo da bere giovane, per gli amanti delle birre aromatiche e amarognole. Ricetta interessante perchè non si effettuano i classici 60 minuti di bollitura ma si utilizza una grande quantità di luppolo in 20 minuti di bollitura
 
@@ -2684,6 +2856,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## Ginger Rye
+
+**Stile BJCP 2021:** 30A Spice, Herb, or Vegetable Beer
+
 
 **Descrizione:** Ricetta all grain ed e+g per birra alle segale, speziata con zenzero, una birra beverina molto agrumata ma al tempo stesso complessa. Lo zenzero e la segale sono presenti ma eleganti e il bergamotto e limone puliscono la bocca nel finale.
 
@@ -2736,6 +2911,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## NEIPA
+
+**Stile BJCP 2021:** 21C Hazy IPA
+
 
 **Descrizione:** NEIPA o New England Ipa chiamata anche Juicy Ipa è un nuovo stile birraio molto di moda che focalizza l’attenzione sul luppolo, utilizzando una grande quantità di luppoli americani molto aromatici. Un’atra particolarità è il suo aspetto velato dato un po’ dall’ utilizzo di fiocchi nel grist e dal lievito. Il lievito più utilizzato per questo genere di birra è prodotto dall’Omega Yeast lab ed è il OYL052 DIPA Ale. Utilizzato come sua variante White Labs anche il WLP007 Ricetta allgrain ed e+g estratto più grani per NEIPA New England Ipa: 23lt.
 
@@ -2790,6 +2968,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 ## Ginger Rye
 
+**Stile BJCP 2021:** 20A American Porter
+
+
 **Descrizione:** Ricetta allgrain, e+g e biab per American Porter, una birra scura dove i malti scuri di uniscono ai luppoli americani in un profilo aromatico complesso, birra alcolica e perfetta per il periodo invernale. Ricetta per 23 litri Stile: American Porter
 
 ### Parametri
@@ -2837,6 +3018,9 @@ Fonte: PDF «RICETTE ALL GRAIN - E+G» di pinta.it. Tabelle ricavate automaticam
 
 
 ## California Common
+
+**Stile BJCP 2021:** 19B California Common
+
 
 **Descrizione:** Una birra americana con luppoli tradizionali europei, aroma fruttato e un gusto caramellato. Una birra che utilizza i lieviti a bassa fermentazione a temperature più alte Ricetta per 19 Lt, OG = 1.054
 
