@@ -30,3 +30,8 @@ Adding a brew means copying `quaderno/template/cotta.tex` (the brew template, no
 - Efficiencies and acid alpha fractions are stored as fractions (`0,78`, not `78%`), per `formulario.tex`.
 - Measured values and targets sit side by side in each brew's "Obiettivi e risultati" table. Keep that layout.
 - Brews are written as `.tex` only. Don't reintroduce the old Markdown brew notes.
+
+## Git workflow
+
+- Work directly on `main`. Don't create feature branches unless the user asks for one.
+- Commit and push only when the user asks.
