@@ -14,7 +14,7 @@ Raffreddamento & Chiller con pompa (perdite del circuito sistemate dopo la cotta
 Fermentatori & 1 $\times$ \SI{10}{\liter}, 2 $\times$ \SI{5}{\liter} (capacità nominale) \\
 Controllo temperatura & Termostato, isteresi $-1/+0$ \si{\celsius} \\
 Datalogger & IPT-100 ``bagnanaso'': temperatura e umidità ambiente, sonda esterna \\
-Densimetro & Starato: $\delta = +0{,}005$ (da sommare a ogni lettura). Verificato in acqua Lauretana a \SI{15}{\celsius}: lettura 0,996, riportata a \SI{20}{\celsius} $\approx 0{,}995$ \\
+Densimetro & Nuovo strumento (cotta \#2): legge $1{,}001$ in acqua distillata, errore $+0{,}001$, quindi $\delta = -0{,}001$ (da sommare a ogni lettura). Il vecchio strumento ($\delta = +0{,}005$) non si applica più \\
 Imbottigliamento & Sifone dall'alto \\
 Dosaggio priming & Siringa graduata (eroga il valore nominale) \\
 \bottomrule
@@ -31,20 +31,12 @@ Valori da usare nei calcoli delle prossime cotte.
 \toprule
 Parametro & Simbolo & Valore & Fonte / note \\
 \midrule
-Efficienza d'impianto & $\varepsilon$ & 0,78 & misurata, cotta \#1 (OG corretta) \\
+Efficienza d'impianto & $\varepsilon$ & 0,71 & media delle cotte \#1 (0,78) e \#2 (0,63); valori per cotta nello Storico \\
 Evaporazione & $\sigma$ & \SI{3}{\liter\per\hour} & misurata, cotta \#1 (volume pre-bollitura) \\
-Assorbimento trebbie & $\eta$ & \SI{1,125}{\liter\per\kilo\gram} & cotta \#1, per differenza (vedi sotto) \\
-Perdite (fondo + campioni) & $V_l$ & \SI{2}{\liter} & cotta \#1: parte del volume è rimasta sopra il rubinetto \\
-Rapporto di mash & $R$ & \SI{3,5}{\liter\per\kilo\gram} & scelta di processo \\
-Contrazione a freddo & --- & 0 & non serve: volumi confrontati a temperatura ambiente \\
+Perdite (fondo + campioni) & $V_l$ & \SI{3}{\liter} & cotta \#1: $V_{pb} - V_f = 20 - 17$ \\
 \bottomrule
 \end{tabularx}
 
-\medskip
-\textbf{Cotta \#1:} $\sigma$ è stata misurata a \SI{3}{\liter\per\hour} dal volume pre-bollitura. Con $V_{ev} = \sigma\, t_b = \SI{3}{\liter}$ e la somma nota $V_{ev} + V_{abs} = \SI{7,5}{\liter}$, si ricava per differenza:
-\begin{equation*}
-V_{abs} = \SI{7,5}{\liter} - \SI{3}{\liter} = \SI{4,5}{\liter}, \qquad \eta = \frac{\SI{4,5}{\liter}}{\SI{4,00}{\kilo\gram}} = \SI{1,125}{\liter\per\kilo\gram}.
-\end{equation*}
 
 % =====================================================================
 \section{Storico dei parametri}
@@ -54,6 +46,9 @@ V_{abs} = \SI{7,5}{\liter} - \SI{3}{\liter} = \SI{4,5}{\liter}, \qquad \eta = \f
 \toprule
 Cotta & $\varepsilon$ & $\sigma$ [\si{\liter\per\hour}] & $\eta$ [\si{\liter\per\kilo\gram}] & $V_l$ [\si{\liter}] & $V_{ev}+V_{abs}$ [\si{\liter}] \\
 \midrule
-\#1 & 0,78 & 3 (misurata) & 1,125 & 2 & 7,5 \\
+\#1 & 0,78 & 3 (misurata) & 1,125 & 3 & 7,5 \\
+\#2 & 0,63 & 3,2 & 1,59 & 1 & 9,5 \\
+\midrule
+Media & 0,71 & 3,1 & --- & --- & --- \\
 \bottomrule
 \end{tabularx}

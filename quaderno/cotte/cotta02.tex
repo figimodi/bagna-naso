@@ -4,13 +4,13 @@
 
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
-Data cotta & Da definire \\
+Data cotta & 25/10/2026 \\
 Stile & Witbier (BJCP 2021, 24A, p.~49) \\
 Parametri di stile & OG 1,044--1,052; FG 1,008--1,012; IBU 8--20; SRM 2--4; ABV 4,5--5,5\,\% \\
-Volume in fermentatore & \SI{17}{\liter} \\
+Volume in fermentatore & \SI{17}{\liter} ($4 + 4 + \SI{9}{\liter}$) \\
 Volume di riferimento ricetta & \SI{23}{\liter} (ricetta di partenza, scalata a \SI{17}{\liter}) \\
-Efficienza & $\varepsilon = 0{,}78$ (impianto, cotta \#1) \\
-Costo ingredienti & 23,23\,\texteuro\ + zucchero di priming \textcolor{red}{Da definire} (1,37\,\texteuro/L su \SI{17}{\liter}, escluso lo zucchero; esclusa la bottiglia) \\
+Efficienza & $\varepsilon = 0{,}78$ usata in pianificazione (cotta \#1); \textbf{misurata: $\varepsilon = 0{,}63$} \\
+Costo ingredienti & 32,06\,\texteuro\ + zucchero di priming \textcolor{red}{Da definire} (1,89\,\texteuro/L su \SI{17}{\liter}, escluso lo zucchero; esclusa la bottiglia; incluso mezzo barattolo di sanificante) \\
 Carbonazione obiettivo & $v_t = \SI{3,0}{\vol}$ (BJCP 24A: \emph{high carbonation}, senza valore numerico; scelto prudente per bottiglie da \SI{33}{\centi\liter}) \\
 \bottomrule
 \end{tabularx}
@@ -20,16 +20,16 @@ Carbonazione obiettivo & $v_t = \SI{3,0}{\vol}$ (BJCP 24A: \emph{high carbonatio
 \toprule
 Grandezza & Obiettivo & Misurato & Note \\
 \midrule
-$V_{pb}$ [\si{\liter}] & 19 & \textcolor{red}{Da definire} & $V_{fer} + V_{scr}$, con $V_{scr} = \SI{2}{\liter}$ \\
-$OG$ & 1,047 & \textcolor{red}{Da definire} & $GU_{pb} = 47$; dentro il range dello stile (1,044--1,052) \\
-$P_{tot}$ [pt$\cdot$L] & 893 & --- & $47 \cdot 19$ \\
-$FG$ & 1,012 & \textcolor{red}{Da definire} & $A_{app} = 0{,}75$ (limite superiore dichiarato del lievito); range dello stile 1,008--1,012 \\
-$IBU$ & $\approx 16$ & --- & valore ricetta, dentro il range dello stile (8--20) \\
-$ABV$ [\si{\percent}] & $\approx 4{,}6$ & \textcolor{red}{Da definire} & prima del priming; $ABV = 131{,}25\,(OG-FG)$. Dopo il priming $\approx 5{,}1$, dentro il range dello stile (4,5--5,5) \\
+$V_{pb}$ [\si{\liter}] & 20 & 18 & a freddo. $V_{fer} + V_l$: $V_l = \SI{1}{\liter}$ misurato ($18 - 17$), contro i \SI{3}{\liter} di cotta \#1 (bollitore inclinato) \\
+$OG$ & 1,047 & 1,042 & misurato a \SI{19}{\celsius} (lettura effettiva, offset del nuovo densimetro già applicato); $GU_{pb} = 42$, sotto l'obiettivo. Pre-bollitura: 1,035 a \SI{22}{\liter} caldi (lettura 1,032 a \SI{32}{\celsius}, più correzione $+3{,}1$). Range dello stile 1,044--1,052 \\
+$P_{tot}$ [pt$\cdot$L] & 940 & 756 & misurato: $42 \cdot 18$ (obiettivo $47 \cdot 20$) \\
+$FG$ & 1,012 & \textcolor{red}{Da definire} & $A_{app} = 0{,}75$ (limite superiore dichiarato del lievito); con $OG = 1{,}042$ la FG attesa è $\approx 1{,}011$; range dello stile 1,008--1,012 \\
+$IBU$ & $\approx 17$ & $\approx 19$ & ricetta: $\approx 17$ a \SI{20}{\liter}. Misurato: stima con \SI{18}{\liter} (Bobek $14{,}0$ + Saaz $4{,}7$), utilizzi teorici, non misura diretta; dentro il range dello stile (8--20) \\
+$ABV$ [\si{\percent}] & $\approx 4{,}6$ & \textcolor{red}{Da definire} & prima del priming; $ABV = 131{,}25\,(OG-FG)$. Con $OG = 1{,}042$ e FG attesa $1{,}011$: $\approx 4{,}1$\,\% prima del priming, sotto il minimo di stile. Dopo il priming $\approx 4{,}7$\,\% \\
 \bottomrule
 \end{tabularx}
 
-\noindent \textbf{Nota:} con $A_{app} = 0{,}75$ il FG cade sul limite superiore del range. Se la FG reale risulta più alta, l'ABV scende sotto 4,5\,\%: in quel caso la prossima cotta va alzata di OG.
+\noindent \textbf{Nota:} con $A_{app} = 0{,}75$ il FG cade sul limite superiore del range. Se la FG reale risulta più alta, l'ABV scende sotto 4,5\,\%: in quel caso la prossima cotta va alzata di OG. Con l'OG reale ($1{,}042$) l'ABV atteso prima del priming è già sotto 4,5\,\%: la FG va misurata.
 
 % ---------------------------------------------------------------------
 \subsection*{Ricetta di partenza e modifiche}
@@ -39,13 +39,13 @@ $ABV$ [\si{\percent}] & $\approx 4{,}6$ & \textcolor{red}{Da definire} & prima d
 Voce & Partenza (\SI{23}{\liter}) & Cotta \#2 (\SI{17}{\liter}) & Motivo \\
 \midrule
 OG & 1,045 & 1,047 & ABV $\ge 4{,}5\,\%$ con FG $\le 1{,}012$ \\
-Frumento non maltato & \SI{0,7}{\kilo\gram} (15\,\%) & \SI{1,20}{\kilo\gram} (32\,\%) & BJCP 24A: 30--60\,\% \\
-Frumento maltato (Château Wheat Blanc) & \SI{1,2}{\kilo\gram} & \SI{0,90}{\kilo\gram} & bilancio sull'OG obiettivo, con 1,20 kg di frumento non maltato \\
-Château Pilsner & \SI{2,5}{\kilo\gram} & \SI{1,42}{\kilo\gram} & bilancio sull'OG obiettivo \\
-Fiocchi d'avena & \SI{0,3}{\kilo\gram} & \SI{0,25}{\kilo\gram} & circa 7\,\% della miscela (stile: fino al 5--10\,\%) \\
-Luppolo amaro & Bobek \SI{25}{\gram}, 4,5\,\% & Bobek \SI{18}{\gram}, 4,2\,\% & IBU obiettivo 16: margine sotto il limite superiore dello stile (20) \\
-Luppolo aroma & Saaz \SI{25}{\gram}, 3,2\,\% & Saaz \SI{15}{\gram}, 3,5\,\% & luppolo speziato \emph{low to none} nello stile \\
-Arancia amara & \SI{20}{\gram} & \SI{15}{\gram} & scala a \SI{17}{\liter} \\
+Frumento non maltato & \SI{0,7}{\kilo\gram} (15\,\%) & \SI{1,26}{\kilo\gram} (32\,\%) & BJCP 24A: 30--60\,\% \\
+Frumento maltato (Château Wheat Blanc) & \SI{1,2}{\kilo\gram} & \SI{0,95}{\kilo\gram} & bilancio sull'OG obiettivo, con 1,26 kg di frumento non maltato \\
+Château Pilsner & \SI{2,5}{\kilo\gram} & \SI{1,49}{\kilo\gram} & bilancio sull'OG obiettivo \\
+Fiocchi d'avena & \SI{0,3}{\kilo\gram} & \SI{0,27}{\kilo\gram} & circa 7\,\% della miscela (stile: fino al 5--10\,\%) \\
+Luppolo amaro & Bobek \SI{25}{\gram}, 4,5\,\% & Bobek \SI{20}{\gram}, 4,2\,\% & IBU obiettivo 16: margine sotto il limite superiore dello stile (20) \\
+Luppolo aroma & Saaz \SI{25}{\gram}, 3,2\,\% & Saaz \SI{16}{\gram}, 3,5\,\% & luppolo speziato \emph{low to none} nello stile \\
+Arancia amara & \SI{20}{\gram} & \SI{15}{\gram} & scala a \SI{17}{\liter} (invariata rispetto alla versione a 19 L) \\
 Coriandolo & \SI{10}{\gram} & \SI{7}{\gram} & scala a \SI{17}{\liter}; lo stile vuole spezia non esagerata \\
 \bottomrule
 \end{tabularx}
@@ -58,28 +58,28 @@ Coriandolo & \SI{10}{\gram} & \SI{7}{\gram} & scala a \SI{17}{\liter}; lo stile 
 \toprule
 Malto & Massa [\si{\kilo\gram}] & \% \\
 \midrule
-Château Pilsner & 1,42 & 37,7 \\
-Château Wheat Blanc (frumento maltato) & 0,90 & 23,9 \\
-Torrified Wheat (frumento non maltato) & 1,20 & 31,8 \\
-Fiocchi d'avena & 0,25 & 6,6 \\
+Château Pilsner & 1,49 & 37,5 \\
+Château Wheat Blanc (frumento maltato) & 0,95 & 23,9 \\
+Torrified Wheat (frumento non maltato) & 1,26 & 31,8 \\
+Fiocchi d'avena & 0,27 & 6,8 \\
 \midrule
-Totale & 3,77 & 100,0 \\
+Totale & 3,97 & 100,0 \\
 \bottomrule
 \end{tabularx}
 
-\noindent Calcolo: $m_i = P_i / (10\, e_i\, \varepsilon)$, con $P_{tot} = 893$ pt$\cdot$L ripartiti in Pilsner ($P = 332$), frumento maltato ($P = 225$), frumento non maltato ($P = 281$) e avena ($P = 55$). Estratti potenziali $e_i$ = 30 (Pilsner), 32 (frumento maltato), 30 (frumento non maltato), 28 (avena).
+\noindent Calcolo: $m_i = P_i / (10\, e_i\, \varepsilon)$, con $P_{tot} = 940$ pt$\cdot$L ripartiti in Pilsner ($P = 349$), frumento maltato ($P = 237$), frumento non maltato ($P = 295$) e avena ($P = 59$). Estratti potenziali $e_i$ dalla tabella del formulario: 30 (Pilsner), 32 (frumento maltato, centro del range 31--33), 30 (frumento non maltato), 28 (avena).
 
 \subsubsection*{Luppolo}
 \begin{tabularx}{\linewidth}{@{}Xccccr@{}}
 \toprule
 Luppolo & Forma & $a$ [\si{\percent}] & Massa [\si{\gram}] & Aggiunta & $IBU_i$ \\
 \midrule
-Bobek & pellet & 4,2 & 18 & \SI{60}{\minute} & 11,9 \\
-Saaz & pellet & 3,5 & 15 & \SI{15}{\minute} & 4,1 \\
+Bobek & pellet & 4,2 & 20 & \SI{60}{\minute} & 12,6 \\
+Saaz & pellet & 3,5 & 16 & \SI{15}{\minute} & 4,2 \\
 \bottomrule
 \end{tabularx}
 
-\noindent Masse calcolate con rapporto $r = m_{h,1}/m_{h,2} = 1{,}2$, $IBU = 16$, $C_g = 1$ (OG $< 1{,}050$), utilizzi $U=0{,}30$ (60 min) e $U=0{,}15$ (15 min) in pellet.
+\noindent Masse calcolate con rapporto $r = m_{h,1}/m_{h,2} = 1{,}2$, $IBU = 16$, $C_g = 1$ (OG $< 1{,}050$), $V_{pb} = \SI{20}{\liter}$, utilizzi $U=0{,}30$ (60 min) e $U=0{,}15$ (15 min) in pellet.
 
 \subsubsection*{Altri ingredienti}
 \begin{tabularx}{\linewidth}{@{}Xcr@{}}
@@ -109,15 +109,15 @@ Dose massima dichiarata & fino a \SI{23}{\liter} di mosto \\
 \toprule
  & Rocchetta [\si{\liter}] & Lauretana [\si{\liter}] & Totale [\si{\liter}] \\
 \midrule
-Mash   & 7,9 & 5,3 & 13,2 \\
-Sparge & 7,8 & 5,2 & 13,0 \\
+Mash   & 8,5 & 5,5 & 14,0 \\
+Sparge & 8,0 & 5,5 & 13,5 \\
 \midrule
-Totale & 15,7 & 10,5 & 26,2 \\
+Totale & 16,5 & 11,0 & 27,5 \\
 \bottomrule
 \end{tabularx}
 
 \medskip
-\noindent Miscela $\approx$ 60\,\% Rocchetta / 40\,\% Lauretana (come cotta \#1). Profilo ionico da ricalcolare. Sparge acidificata a pH $\approx 5$.
+\noindent Miscela $\approx$ 60\,\% Rocchetta / 40\,\% Lauretana (come cotta \#1). Profilo ionico uguale a cotta \#1: stessa miscela complessiva (60\,\% / 40\,\% su \SI{27,5}{\liter}), con mash e sparge che differiscono di meno di 2 punti percentuali. Sparge acidificata a pH $\approx 5$.
 
 % ---------------------------------------------------------------------
 \subsection*{Processo}
@@ -125,11 +125,12 @@ Totale & 15,7 & 10,5 & 26,2 \\
 \subsubsection*{Volumi}
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
-Volume totale acqua & $V_{tot} = V_{fer} + V_{scr} + V_{evp} + V_{abs} = 17 + 2 + 3 + 4{,}24 \approx \SI{26,2}{\liter}$ \\
-Assorbimento trebbie & $\eta = \SI{1,125}{\liter\per\kilo\gram} \Rightarrow V_{abs} \approx \SI{4,2}{\liter}$ \\
+Volume totale acqua & $V_{tot} = V_{fer} + V_l + V_{evp} + V_{abs} = 17 + 3 + 3 + 4{,}5 \approx \SI{27,5}{\liter}$ \\
+Assorbimento trebbie & $\eta = \SI{1,125}{\liter\per\kilo\gram} \Rightarrow V_{abs} \approx \SI{4,5}{\liter}$ (su $\SI{3,97}{\kilo\gram}$) \\
 Evaporazione & $\sigma = \SI{3}{\liter\per\hour}$ per \SI{60}{\minute} \\
-Rapporto di mash $R$ & $\SI{3,5}{\liter\per\kilo\gram} \Rightarrow V_m \approx \SI{13,2}{\liter}$ \\
-Volume sparge & $V_{sp} = V_{tot} - V_m \approx \SI{13,0}{\liter}$ \\
+Rapporto di mash $R$ & $\SI{3,5}{\liter\per\kilo\gram} \Rightarrow V_m \approx \SI{13,9}{\liter}$ (pianificato; effettivo \SI{14,0}{\liter}) \\
+Volume sparge & $V_{sp} = V_{tot} - V_m \approx \SI{13,6}{\liter}$ (pianificato; effettivo \SI{13,5}{\liter}) \\
+Bilancio misurato & Con contrazione a caldo (fattore $0{,}962$): $V_{pre} = \SI{22}{\liter} \cdot 0{,}962 \approx \SI{21,2}{\liter}$ a freddo. $\sigma = \SI{21,2}{\liter} - \SI{18}{\liter} = \SI{3,2}{\liter\per\hour}$, coerente con $\SI{3}{\liter\per\hour}$ della cotta \#1. $V_{abs} = \SI{27,5}{\liter} - \SI{21,2}{\liter} = \SI{6,3}{\liter} \Rightarrow \eta = \SI{6,3}{\liter} / \SI{3,97}{\kilo\gram} \approx \SI{1,59}{\liter\per\kilo\gram}$. Somma $V_{ev}+V_{abs} = \SI{9,5}{\liter}$ \\
 \bottomrule
 \end{tabularx}
 
@@ -150,9 +151,10 @@ Mash-out & \SI{78}{\celsius} & \SI{10}{\minute} \\
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
 Durata & \SI{60}{\minute} \\
-Volume post-bollitura & \SI{19}{\liter} (obiettivo, prima del raffreddamento) \\
-Aggiunte & \SI{0}{\minute}: Bobek \SI{18}{\gram} (60 min) \\
- & \SI{45}{\minute} dopo l'inizio: Saaz \SI{15}{\gram} + arancia amara \SI{15}{\gram} (15 min alla fine) \\
+Volume pre-bollitura & \SI{22}{\liter} a caldo (misurato, prima dell'accensione) \\
+Volume post-bollitura & \SI{18}{\liter} a freddo (misurato; obiettivo \SI{20}{\liter}) \\
+Aggiunte & \SI{0}{\minute}: Bobek \SI{20}{\gram} (60 min) \\
+ & \SI{45}{\minute} dopo l'inizio: Saaz \SI{16}{\gram} + arancia amara \SI{15}{\gram} (15 min alla fine) \\
  & \SI{55}{\minute} dopo l'inizio: coriandolo \SI{7}{\gram} (5 min alla fine) \\
 \bottomrule
 \end{tabularx}
@@ -160,10 +162,10 @@ Aggiunte & \SI{0}{\minute}: Bobek \SI{18}{\gram} (60 min) \\
 \subsubsection*{Fermentazione}
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
-Fase 1 & \SI{18}{\celsius} per 6 gg (fermentazione principale) \\
-Fase 2 & \SI{20}{\celsius} per 4 gg (fine fermentazione, riassorbimento del diacetile) \\
-Temperatura massima $T_f^{max}$ & \SI{20}{\celsius} (range lievito \SIrange{18}{25}{\celsius}) \\
-Durata totale & 10 gg, poi imbottigliamento \\
+Fase 1 & \SI{19}{\celsius} per 7 gg (fermentazione principale; range effettivo da termostato \SI{18}{}--\SI{19}{\celsius}) \\
+Fase 2 & \SI{22}{\celsius} per 7 gg (fine fermentazione, riassorbimento del diacetile; range termostato \SIrange{21}{22}{\celsius}) \\
+Temperatura massima $T_f^{max}$ & \SI{22}{\celsius} (range lievito \SIrange{18}{25}{\celsius}) \\
+Durata totale & 14 gg, poi imbottigliamento \\
 Misurato & \textcolor{red}{Da definire} \\
 \bottomrule
 \end{tabularx}
@@ -172,10 +174,20 @@ Misurato & \textcolor{red}{Da definire} \\
 \begin{tabularx}{\linewidth}{@{}lX@{}}
 \toprule
 Volume CO$_2$ obiettivo $v_t$ & \SI{3,0}{\vol} \\
-CO$_2$ residua $v_r(T_f^{max} = \SI{20}{\celsius})$ & \SI{0,85}{\vol} (tabella del formulario) \\
-Zucchero & $c_s = 3{,}86\,(3{,}0 - 0{,}85) \approx \SI{8,3}{\gram\per\liter}$ (saccarosio) \\
-$\Delta ABV_p = 0{,}0648\, c_s$ & $\approx 0{,}5$\,\% v/v (ABV finale $\approx 4{,}6 + 0{,}5 = 5{,}1$\,\%) \\
+CO$_2$ residua $v_r(T_f^{max} = \SI{22}{\celsius})$ & \SI{0,80}{\vol} (tabella del formulario) \\
+Zucchero & $c_s = 3{,}86\,(3{,}0 - 0{,}80) \approx \SI{8,5}{\gram\per\liter}$ (saccarosio) \\
+$\Delta ABV_p = 0{,}0648\, c_s$ & $\approx 0{,}6$\,\% v/v (ABV finale $\approx 4{,}1 + 0{,}6 \approx 4{,}7$\,\%) \\
 Volume da imbottigliare $V_b$ & \textcolor{red}{Da definire} [\si{\liter}] \\
 Massa di zucchero $m_s = c_s V_b$ & \textcolor{red}{Da definire} [\si{\gram}] \\
 \bottomrule
 \end{tabularx}
+
+% ---------------------------------------------------------------------
+\subsection*{Problemi e note per le prossime cotte}
+\begin{itemize}
+  \item \textbf{Bolle dal coperchio.} Ci siamo allontanati durante la bollitura, che era ancora in corso. Al ritorno uscivano bolle dal coperchio: è uscito un po' di mosto, perdita piccola e non misurata. La differenza $\SI{21,2}{\liter} - \SI{18}{\liter} = \SI{3,2}{\liter}$ include anche la perdita, quindi l'evaporazione reale è più bassa. L'efficienza non cambia, perché il volume post-bollitura è stato misurato dopo. Non lasciare il bollitore incustodito durante la bollitura; se serve allontanarsi, appoggiare il coperchio in modo che sfiati.
+  \item \textbf{Efficienza misurata $\varepsilon = 0{,}63$ contro $0{,}78$.} Le stime di estratto per frumento e avena sono corrette, quindi il mosto conferma il volume misurato: $1{,}035 \cdot \SI{22}{\liter}$ caldi corrispondono a circa \SI{21,2}{\liter} freddi ($0{,}962$), cioè circa $741$ pt$\cdot$L, contro $756$ pt$\cdot$L post-bollitura. Le masse di malto sono corrette, quindi il deficit sta nell'ammostamento, non nelle misure di fine bollitura. Cause da verificare, in quest'ordine: (a) pH di ammostamento: misurato con cartine sia per il mash sia per lo sparge, tra 5 e 6; l'acqua ha $\mathrm{HCO_3^-} = 113$\,mg/L e il mash non è acidificato; (b) macinatura grossa; (c) temperatura o durata delle pause.
+  \item \textbf{Sensibilità al volume.} $\varepsilon$ dipende direttamente dal volume post-bollitura: con \SI{20}{\liter} invece di \SI{18}{\liter} l'efficienza sarebbe circa $0{,}70$. Il volume post-bollitura è stato misurato a freddo, alla stessa temperatura del travaso in fermentatore.
+  \item \textbf{Densimetro.} Il nuovo strumento legge $1{,}001$ in acqua distillata: errore $+0{,}001$, quindi $\delta = -0{,}001$ da sommare alle letture. Il valore $\delta = +0{,}005$ del vecchio strumento non si applica più.
+  \item \textbf{ABV.} Con OG $1{,}042$ e FG attesa $1{,}011$, l'ABV prima del priming è circa $4{,}1$\,\%, sotto il minimo di stile. Per la prossima cotta alzare l'OG.
+\end{itemize}
